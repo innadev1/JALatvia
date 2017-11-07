@@ -31,16 +31,20 @@ a{
     color: white;
 }
 .links_logo a{
-	font-size: 0.9vw;
+    font-size: 0.6vw;
+    padding-bottom: 0;
+    line-height: unset;
+    border-right: 1px solid;
+    padding-right: 0.5vw;
 }
 #links_logo li {
     display: inline;
     list-style: none;
-    margin-right: 0.8vw;
+    margin-right: 0.2vw;
     cursor: pointer;
 	opacity: 0.8;
 }
-#links_logo li:hover{
+#links_logo a:hover{
 	color: #2cc654;
 }
 #login {
@@ -65,9 +69,11 @@ a{
 	color:#2cc654;
 }
 .capture{
-    position: relative;
+    position: absolute;
     margin-top: 17vw;
     margin-left: 12vw;
+	z-index: 2;
+	width: 32%;
 }
 .capture h2{
 	margin: 0;
@@ -90,6 +96,91 @@ a{
 }
 #banner span{
 	color:#2cc654;
+}
+.capture span{
+	color:#2cc654;
+}
+.first_button img, .second_button img{
+	width: 3.5vw;
+	cursor: pointer;
+}
+.first_button{
+	position: absolute;
+    left: 7vw;
+	top: 44.2vw;
+}
+.second_button{
+	position: absolute;
+    right: 7vw;
+	top: 44.2vw;
+}
+#date{
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    position: absolute;
+    top: 42vw;
+	display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+	overflow: hidden;
+	height: 8vw;
+}
+.date{
+	display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+	padding: 1.5vw;
+    padding-left: 2vw;
+	cursor: pointer;
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+	color: rgb(168, 168, 168);
+	width: 21%;
+	position: absolute;
+	top:0;
+	background-color: #fff;
+}
+.date h1{
+	margin: 0;
+	font-size: 0.7vw;
+	font-family: "Poppins", sans-serif;
+	opacity: 0.8;
+	font-weight: 500;
+}
+.date h2{
+	margin: 0;
+	font-size: 1.7vw;
+	font-family: "Poppins", sans-serif;
+	font-weight: 600;
+}
+.date p{
+	margin: 0;
+    font-size: 0.8vw;
+    font-family: "Poppins", sans-serif;
+    opacity: 0.8;
+    font-weight: 500;
+}
+.day{
+	margin-right: 2vw;
+}
+.date:hover{
+	background-color: #2cc654;
+	color: white;
+}
+.time_{
+	border-left: 1px solid;
+    padding-left: 1vw;
+}
+@media screen and (max-width: 1400px){
+.links_logo a{
+    font-size: 0.8vw;
+    font-weight: 500;
+}
 }
 @media screen and (max-width: 900px){
 }

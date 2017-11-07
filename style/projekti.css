@@ -1,0 +1,123 @@
+body {
+    background-color: #ececec;
+}
+#banner {
+    height: 46vw;
+    background-image: url(../img/background_dalibskolas.jpg) !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.capture{display:none;}
+.capture_projekti{
+    position: absolute;
+    margin-top: 25vw;
+    margin-left: 12vw;
+	z-index: 2;
+	width: 45%;
+}
+.capture_projekti h2{
+	margin: 0;
+    font-family: "Poppins", sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: left;
+    font-size: 2vw;
+    line-height: 3vw;
+    padding-bottom: 1vw;
+}
+.capture_projekti p{
+	margin: 0;
+    font-size: 0.9vw;
+    font-family: "Poppins", sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.5vw;
+    text-align: left;
+    opacity: 0.8;
+}
+.capture_projekti span {
+    color: #2cc654;
+	line-height: 3vw;
+}
+#buttons_projekti{
+	position: absolute;
+    z-index: 2;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    top: 30vw;
+    width: 100%;
+    justify-content: flex-end;
+    right: 18vw;
+}
+#buttons_projekti button{
+    font-family: "Poppins", sans-serif;
+    background-color: rgba(255,255,255,0.2);
+    color: white;
+    font-size: 1vw;
+    padding: 0.5vw 1vw;
+    margin: 1vw;
+    border: 1px solid rgba(255,255,255,0.2);
+	cursor: pointer;
+}
+#buttons_projekti button:hover{
+	color: #2cc654;
+	background-color: rgba(35,192,76,0.2);
+	border: 1px solid rgba(35,192,76,0.2);
+}
+#main_projekti{
+	margin-top: 6vw;
+	margin-bottom: 6vw;
+}
+.wrap{
+	display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: auto;
+}
+.wrapped{
+	display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    width: 47%;
+    padding: 1vw;
+	cursor: pointer;
+}
+.wrapped:hover{
+	background-color: white;
+}
+.wrapped img{
+	width: 10vw;
+    padding: 2vw;
+}
+.wrapped h1{
+	font-size: 1.4vw;
+    font-family: "Poppins", sans-serif;
+    color: black;
+    font-weight: bold;
+    text-align: left;
+    margin: 0;
+    line-height: 1.6vw;
+	margin-bottom: 0.8vw;
+}
+.wrapped p{
+	font-size: 0.7vw;
+    font-family: "Poppins";
+    color: rgb(159, 159, 159);
+    line-height: 1vw;
+    text-align: left;
+    margin: 0;
+}
+.project_logo{
+    width: 15vw;
+}
+@media screen and (max-width: 900px){
+}

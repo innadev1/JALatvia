@@ -5,83 +5,6 @@
 }
 h1{}
 p{}
-.first_button img, .second_button img{
-	width: 3.5vw;
-	cursor: pointer;
-}
-.first_button{
-	position: absolute;
-    left: 7vw;
-	top: 44.2vw;
-}
-.second_button{
-	position: absolute;
-    right: 7vw;
-	top: 44.2vw;
-}
-#date{
-    width: 80%;
-    height: auto;
-    margin-left: 10%;
-    margin-right: 10%;
-    position: absolute;
-    top: 42vw;
-	display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-	overflow: hidden;
-	height: 15vw;
-}
-.date{
-	display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-	
-	padding: 1.5vw;
-    padding-left: 2vw;
-	cursor: pointer;
-	box-shadow: 0 0 10px rgba(0,0,0,0.2);
-	color: rgb(168, 168, 168);
-	width: 21%;
-	position: absolute;
-	top:0;
-	background-color: #fff;
-}
-.date h1{
-	margin: 0;
-	font-size: 0.7vw;
-	font-family: "Poppins", sans-serif;
-	opacity: 0.8;
-	font-weight: 500;
-}
-.date h2{
-	margin: 0;
-	font-size: 1.7vw;
-	font-family: "Poppins", sans-serif;
-	font-weight: 600;
-}
-.date p{
-	margin: 0;
-    font-size: 0.8vw;
-    font-family: "Poppins", sans-serif;
-    opacity: 0.8;
-    font-weight: 500;
-}
-.day{
-	margin-right: 2vw;
-}
-.date:hover{
-	background-color: #2cc654;
-	color: white;
-}
-.time_{
-	border-left: 1px solid;
-    padding-left: 1vw;
-}
 #news{
 	background-color: #ececec;
 	padding-top: 10vw;
@@ -361,26 +284,6 @@ p{}
     text-align: left;
 	margin: 0;
 	padding-left: 2vw;
-}
-#partners{
-	background-color: #ececec;
-	display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-	justify-content: center;
-}
-#partners h1{
-	font-size: 1vw;
-	font-family: "Poppins", sans-serif;
-	color: rgb(159, 159, 159);
-	text-transform: uppercase;
-	padding: 3vw;
-}
-#partners div img{
-	width: 12vw;
-	padding: 3vw;
 }
 @media screen and (max-width: 900px){
 }

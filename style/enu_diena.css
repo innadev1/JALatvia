@@ -1,0 +1,206 @@
+body{
+	background-color: #ececec;
+}
+#banner {
+    height: 46vw;
+    background-image: url(../img/background_enu_diena.jpg) !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.capture{display:none;}
+.capture_enu_diena{
+    position: absolute;
+    margin-top: 24vw;
+    margin-left: 12vw;
+	z-index: 2;
+	width: 44%;
+}
+.capture_enu_diena h2{
+	margin: 0;
+    font-family: "Poppins", sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: left;
+    font-size: 2vw;
+    line-height: 3vw;
+    padding-bottom: 0.5vw;
+}
+.capture_enu_diena h1{
+	margin: 0;
+    font-family: "Poppins", sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: left;
+    font-size: 0.8vw;
+    padding-bottom: 0.5vw;
+    text-transform: uppercase;
+    opacity: 0.8;
+}
+.capture_enu_diena p{
+	margin: 0;
+    font-size: 0.9vw;
+    font-family: "Poppins", sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.3vw;
+    text-align: left;
+    opacity: 0.8;
+}
+.capture_enu_diena span {
+    color: #2cc654;
+	font-weight: bold;
+}
+#main_info{
+	padding-top: 6vw;
+    padding-bottom: 6vw;
+    width: 50%;
+    margin: auto;
+}
+#content_1{
+	display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+#content_1 div:first-child{
+	width: 30%;
+}
+#content_1 div:last-child{
+	width: 70%;
+	padding-left: 3vw;
+}
+#content_1 img{
+	width: 100%;
+}
+#content_1 h1{
+	margin: 0;
+    font-size: 1vw;
+    font-family: "Poppins", sans-serif;
+    color: rgb(0,0,0);
+    line-height: 1.5vw;
+    text-align: left;
+	font-weight: bold;
+}
+#content_1 h2{
+	margin: 0;
+    font-size: 0.8vw;
+    font-family: "Poppins", sans-serif;
+    color: rgb(0,0,0);
+    line-height: 1.5vw;
+    text-align: left;
+	margin-bottom: 1vw;
+	font-weight: 400;
+}
+#content_1 p{
+	margin: 0;
+    font-size: 0.8vw;
+    font-family: "Poppins", sans-serif;
+    color: rgb(0,0,0);
+    line-height: 1.5vw;
+    text-align: left;
+}
+h6{
+	margin: 2vw;
+    font-size: 1vw;
+    font-family: "Poppins", sans-serif;
+    color: rgb(0,0,0);
+    line-height: 1.5vw;
+    text-align: center;
+	font-weight: bold;
+	margin-top: 5vw;
+}
+#content_2{
+	display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+	flex-wrap: wrap;
+}
+.c_2{
+	width: 20%;
+	height: 10vw;
+    padding-bottom: 1vw;
+}
+.c_2 p{
+	margin: 0;
+    font-size: 0.8vw;
+    font-family: "Poppins", sans-serif;
+    color: rgb(0,0,0);
+    line-height: 1.5vw;
+    text-align: center;	
+}
+.header_content_2{
+	height: 4vw;
+    padding: 1vw;
+}
+.background{
+    width: 100%;
+    height: 6vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center;
+}
+#b1{background-image: url(../img/logos/enu_diena/enu_diena_ikonas/Asset_11.svg);}
+#b2{background-image: url(../img/logos/enu_diena/enu_diena_ikonas/Asset_12.svg);}
+#b3{background-image: url(../img/logos/enu_diena/enu_diena_ikonas/Asset_8.svg);}
+#b4{background-image: url(../img/logos/enu_diena/enu_diena_ikonas/Asset_9.svg);}
+#b5{background-image: url(../img/logos/enu_diena/enu_diena_ikonas/Asset_13.svg);}
+#b6{background-image: url(../img/logos/enu_diena/enu_diena_ikonas/Asset_17.svg);}
+#b7{background-image: url(../img/logos/enu_diena/enu_diena_ikonas/Asset_18.svg);}
+#b8{background-image: url(../img/logos/enu_diena/enu_diena_ikonas/Asset_15.svg);}
+#b9{background-image: url(../img/logos/enu_diena/enu_diena_ikonas/Asset_19.svg);}
+#b10{background-image: url(../img/logos/enu_diena/enu_diena_ikonas/Asset_10.svg);}
+
+#b1:hover{}
+#b2:hover{}
+#b3:hover{}
+#b4:hover{}
+#b5:hover{}
+#b6:hover{}
+#b7:hover{}
+#b8:hover{}
+#b9:hover{}
+#b10:hover{}
+
+#content_3{
+	margin-top: 5vw;
+}
+#content_3 table{
+	background-color: white;
+	width: 80%;
+    margin: auto;
+	text-align: center;
+}
+#content_3 p{
+	margin: 0;
+    font-size: 1vw;
+    font-family: "Poppins", sans-serif;
+    color: grey;
+    line-height: 1.5vw;
+	font-weight: 500;
+}
+#content_3 h1{
+	margin: 0;
+    font-size: 1vw;
+    font-family: "Poppins", sans-serif;
+    color: rgb(0,0,0);
+    line-height: 1.5vw;
+	font-weight: bold;
+}
+#content_3 span{
+	color: #2cc654;
+}
+#content_3 tr{
+    height: 3vw;
+    box-shadow: 0 0 30px rgba(0,0,0,0.1);
+}
+.first_header{
+    text-align: left;
+    width: 26%;
+    padding-left: 1vw;
+}
+@media screen and (max-width: 900px){
+}

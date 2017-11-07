@@ -1,3 +1,23 @@
+#partners{
+	background-color: white;
+	display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+	justify-content: center;
+}
+#partners h1{
+	font-size: 1vw;
+	font-family: "Poppins", sans-serif;
+	color: rgb(159, 159, 159);
+	text-transform: uppercase;
+	padding: 3vw;
+}
+#partners div img{
+	width: 12vw;
+	padding: 3vw;
+}
 #footer{
 	height: auto;
 	background-color: #1f1f27;

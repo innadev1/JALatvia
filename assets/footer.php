@@ -1,5 +1,13 @@
 <link rel="stylesheet" type="text/css" href="style/footer.css">
 
+		<div id="partners">
+			<div><h1>PARTNERI</h1></div>
+			<div><img src="img/logos/swedbank.png"></div>
+			<div><img src="img/logos/hansaworld.png"></div>
+			<div><img src="img/logos/union.png"></div>
+			<div><img src="img/logos/interreg.png"></div>
+		</div>
+
 <div id="footer">
 	<div class="flex_footer" id="footer_info">
 		<div class="footer_block" style="width: 9%" id="footer_image"><img src="img/logo.png" width="100%"></div>
