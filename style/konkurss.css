@@ -201,6 +201,12 @@ body{
     display: flex;
 	width: 80%;
 	margin: auto;
+	position: relative;
+}
+#element{
+	position: absolute;
+    width: 2.5vw !important;
+    right: 0;
 }
 #content_4 div:first-child{
 	width: 30%;

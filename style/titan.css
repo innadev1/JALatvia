@@ -95,6 +95,7 @@ body{
     display: flex;
 	width: 80%;
 	margin: auto;
+	position: relative;
 }
 #content_2 div:first-child{
 	width: 30%;
@@ -132,6 +133,11 @@ body{
     color: rgb(0,0,0);
     line-height: 1.5vw;
     text-align: left;
+}
+#element{
+	position: absolute;
+    width: 2.5vw !important;
+    right: 0;
 }
 @media screen and (max-width: 900px){
 }

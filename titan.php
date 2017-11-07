@@ -42,6 +42,7 @@
 			<div id="content_2">
 				<div><img src="img/titan.png"></div>
 				<div>
+					<img id="element" src="img/element.png">
 					<h1>Claudio A.Rivera, Ph.D.</h1>
 					<h2>RTU Rīgas Biznesa skolas bakalaura programmas direktors</h2>
 					<p>

@@ -20,6 +20,7 @@
 			<div id="content_1">
 				<div><img src="img/enu_diena.png"></div>
 				<div>
+					<img id="element" src="img/element.png">
 					<h1>Maksims Jegorovs</h1>
 					<h2>Accenture Latvija vadītājs</h2>
 					<p>“ĒNU DIENA ir iespēja mums kā tehnoloģiju uzņēmumam uzzināt, kā uz pasauli raugās tie, kas ikdienā tehnoloģijas patērē. Mēs rīkojam arī iekšējas “ēnu dienas” saviem pāris gadu strādājušiem darbiniekiem — tajās viņi piedalās vadības augstākā līmeņa sapulcēs. Veiksmīgi uzņēmumi līdzsvaroti apvieno gados vecāku cilvēku pieredzi ar jaunāku cilvēku uzdrīkstēšanos.”</p>				
