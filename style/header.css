@@ -176,6 +176,18 @@ a{
 	border-left: 1px solid;
     padding-left: 1vw;
 }
+#all_news{
+	position: absolute;
+    top: 40vw;
+    right: 10vw;
+}
+#all_news a{
+	color: #2cc654;
+	font-family: "Poppins", sans-serif;
+    font-style: italic;
+	font-size: 1vw;
+	cursor: pointer;
+}
 @media screen and (max-width: 1400px){
 .links_logo a{
     font-size: 0.8vw;

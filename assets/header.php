@@ -48,6 +48,8 @@
 	
 </div>
 
+<div id="all_news"><a href="kalendars.php">Visi pasākumi</a></div>
+
 <div class="first_button" id="left"><img src="img/left.png"></div>
 		<div id="date">
 			<div class="date">
