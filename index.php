@@ -13,7 +13,169 @@
 	<body>
 	
 		<?php include 'assets/header.php'; ?>
+	
+<div id="main_banner">
+	<div id="banner_index_1" class="banner">
+		<div class="capture">
+			<h2>Gada labākais <br> ekonomikā <span>2017</span></h2>
+			<p>Latvijas Bankas Zelta zālē Latvijas lielākā izglītības organizācija Junior<br>
+			Achievement Latvija (JA Latvija) mācību gadu noslēdza ar Gada<br>
+			labākais ekonomikā 2017 uzvarētāju — skolotāju, skolēnu un izglītības<br>
+			iestāžu vadītāju — apbalvošanu.</p>
+		</div>
+	</div>
+	
+	<div id="banner_index_2" class="banner" style="display:none">
+		<div class="capture">
+			<h2><span>
+				Dalība SMU programmā<br>
+				man deva iespēju saprat un<br>
+				izbaudīt darbošanos reālā<br>
+				biznesa vidē.
+			</span></h2>
+			<p>
+				Filips Juris Krišjānis<br>
+				SMU ‘’W&B’’
+			</p>
+		</div>
+	</div>
+	
+	<div id="banner_index_1" class="banner" style="display:none">
+		<div class="capture">
+			<h2>Gada labākais <br> ekonomikā <span>2017</span></h2>
+			<p>Latvijas Bankas Zelta zālē Latvijas lielākā izglītības organizācija Junior<br>
+			Achievement Latvija (JA Latvija) mācību gadu noslēdza ar Gada<br>
+			labākais ekonomikā 2017 uzvarētāju — skolotāju, skolēnu un izglītības<br>
+			iestāžu vadītāju — apbalvošanu.</p>
+		</div>
+	</div>
+</div>
 
+	
+	<div class="round_buttons">
+		<button></button>
+		<button></button>
+		<button></button>
+	</div>
+
+	<script>
+	$(document).ready(function(){
+		$('.round_buttons button').click(function(){
+			id = $(this).index()
+			$('#main_banner .banner').css('display','none')
+			$('#main_banner .banner:eq('+id+')').fadeIn(300)
+		})
+	});
+	</script>			
+
+
+<div id="all_news"><a href="kalendars.php">Visi pasākumi</a></div>
+
+<div class="first_button" id="left"><img src="img/left.png"></div>
+		<a class="date_a" href="kalendars.php"><div id="date">
+			<div class="date">
+				<div class="day">
+					<h1>pirmdiena</h1>
+					<h2>7.08</h2>
+				</div>
+				<div class="time_">
+					<h1>12:00</h1>
+					<p>JESS 2017 | Jauniešu uzņēmējdarbības vasaras skola</p>
+				</div>
+			</div>
+			<div class="date">
+				<div class="day">
+					<h1>pirmdiena</h1>
+					<h2>8.08</h2>
+				</div>
+				<div class="time_">
+					<h1>12:00</h1>
+					<p>JESS 2017 | Jauniešu uzņēmējdarbības vasaras skola</p>
+				</div>
+			</div>
+			<div class="date">
+				<div class="day">
+					<h1>pirmdiena</h1>
+					<h2>9.08</h2>
+				</div>
+				<div class="time_">
+					<h1>12:00</h1>
+					<p>JESS 2017 | Jauniešu uzņēmējdarbības vasaras skola</p>
+				</div>
+			</div>
+			<div class="date">
+				<div class="day">
+					<h1>pirmdiena</h1>
+					<h2>10.08</h2>
+				</div>
+				<div class="time_">
+					<h1>12:00</h1>
+					<p>JESS 2017 | Jauniešu uzņēmējdarbības vasaras skola</p>
+				</div>
+			</div>
+			<div class="date" style="">
+				<div class="day">
+					<h1>pirmdiena</h1>
+					<h2>11.08</h2>
+				</div>
+				<div class="time_">
+					<h1>12:00</h1>
+					<p>JESS 2017 | Jauniešu uzņēmējdarbības vasaras skola</p>
+				</div>
+			</div>
+			<div class="date" style="">
+				<div class="day">
+					<h1>pirmdiena</h1>
+					<h2>12.08</h2>
+				</div>
+				<div class="time_">
+					<h1>12:00</h1>
+					<p>JESS 2017 | Jauniešu uzņēmējdarbības vasaras skola</p>
+				</div>
+			</div>
+		</div></a>
+<div class="second_button" id="right"><img src="img/right.png"></div>
+		
+		<script>
+			var productnow = 0
+			$(document).ready(function(){
+				
+				count = $('#date .date').length
+				width = $('#date .date').outerWidth()
+				width_container = $("#date").outerWidth()
+				width_total = count*width
+				width_dif = width_container-width_total
+				
+				for(i=0;i<count;i++){
+						$('#date .date:eq('+i+')').css('left',(i-1)*width)
+					}
+
+				function slide(dir){
+					console.log(dir)
+					for(i=0;i<count;i++){
+						that = $('#date .date:eq('+i+')')
+						that.css({'left': "+="+(dir*width)+"px"})
+							console.log(parseInt(that.css('left')),width_total,width)
+						if(parseInt(that.css('left'))>=width_total-(width*2)){
+							that.css('left',-width)
+						}
+						if(parseInt(that.css('left'))<=width_dif+width){
+							that.css('left',width_container)
+						}
+					}
+				}
+
+				$("#right").click(function () {
+					slide(-1)
+				});
+				
+				$("#left").click(function () {
+				slide(1)
+	
+				});
+			});
+		</script>
+		
 		<div id="news">
 		
 			<h5>Aktualitātes</h5>

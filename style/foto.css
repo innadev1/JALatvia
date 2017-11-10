@@ -80,7 +80,7 @@ body{
     display: flex;
 }
 #main_foto{
-	padding-top: 6vw;
+	padding-top: 2vw;
 	width: 70%;
 	margin: auto;
 	flex-wrap: wrap;

@@ -9,7 +9,7 @@
 
 	<body>
 	
-	<div class="capture_titan">
+	<!--<div class="capture_titan">
 		<h5>TITAN</h5>
 		<h2>biznesa stratēģiskā spēle tiešsaistē! </h2>
 		<p>Sacenšoties intensīvajā online Holo-Generator tirgū (nākotnes personalizētais portatīvais dators),<br> 
@@ -17,7 +17,7 @@
 		rēt jebkuru citu un veiksmīgi atnest peļņu uzņēmuma dalībniekiem.</p>
 		<p><span>Nolikums</span></p>
 	</div>
-	<div class="piesakies"><button>piesakies</button></div>
+		<div class="piesakies"><button>piesakies</button></div>-->
 		<?php include 'assets/header.php'; ?>
 
 		<div id="main_info">

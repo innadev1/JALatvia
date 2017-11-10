@@ -68,8 +68,8 @@ body {
 	border: 1px solid rgba(35,192,76,0.2);
 }
 #main_projekti{
-	margin-top: 6vw;
-	margin-bottom: 6vw;
+	margin-top: 5vw;
+    margin-bottom: 5vw;
 }
 .wrap{
 	display: -webkit-box;

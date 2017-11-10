@@ -85,7 +85,7 @@
 				</p>
 				</div>
 				
-				<div>
+				<!--<div>
 				<h2>02.08</h2>
 				<h1>SMU Light Up Eiropas finālā izpelnās Beļģijas karaļa uzmanību</h1>
 				
@@ -99,7 +99,7 @@
 				
 				<p>Briselē, Beļģijā, ar svinīgu apbalvošanas ceremoniju ir beidzies starptautiskā biznesa izglītības organizāciju tīkla Junior Achievement Europe skolēnu mācību uzņēmumu (SMU) Eiropas fināls, kurā par labāko uzņēmumu tika atzīts Festera no Igaunijas. Latviju šajā konkursā 37 valstu konkurencē godam pārstāvēja SMU Light Up no Jelgavas Spīdolas ģimnāzijas. 
 				</p>
-				</div>
+				</div>-->
 			</div>	
 		</div>
 		

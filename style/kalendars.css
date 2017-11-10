@@ -79,7 +79,7 @@ body{background-color: #ececec;}
     display: flex;
 }
 #c2, #c3{display:none;}
-#calendar{padding: 5vw 0 5vw 0;}
+#calendar{padding: 3vw 0 5vw 0;}
 .calendar{
     width: 70%;
     margin: auto;
@@ -107,6 +107,7 @@ body{background-color: #ececec;}
     height: 9vw;
     border: 0.5px solid rgb(168, 168, 168);
     cursor: pointer;
+	background-color: rgba(255,255,255,0.7);
 }
 .date_window:hover{
 	background-color: white;
