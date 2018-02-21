@@ -289,20 +289,26 @@
 				līmeņos. Biedrība nodrošina savu dalībskolu skolotājiem kvalifikācijas
 				paaugstināšanas un tālākizglītības programmas gan Latvijā, gan ārzemēs.</p>
 			</div>
-			<div class="junior_f_photo"></div>
+			<!--<div class="junior_f_photo"></div>-->
 			<div class="junior_s_photo"></div>
 		</div>
 		
-		<div id="banner_2">
-			<div id="banner_2_text">
-				<div class="banner_2_text">
-					<h3>Dalība SMU programmā<br>
+		<div id="quote">
+			<div class="quote">
+				<h2>Filips Juris Krišjānis</h2>
+				<p><span>SMU ‘’W&B’’</span></p>	
+			
+				<p>
+					Dalība SMU programmā<br>
 					man deva iespēju saprat un<br>
 					izbaudīt darbošanos reālā<br>
-					biznesa vidē.</h3>
-					<p>Filips Juris Krišjānis<br>
-					SMU ‘’W&B’’</p>
-				</div>
+					biznesa vidē.
+				</p>
+				
+				<div class="green-border-1"></div>
+				<div class="green-border-2"></div>
+				<div class="green-border-3"></div>
+				<div class="el"><img src="img/element.png"></div>
 			</div>
 		</div>
 		

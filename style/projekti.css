@@ -11,7 +11,7 @@ body {
 .capture{display:none;}
 .capture_projekti{
     position: absolute;
-    margin-top: 25vw;
+    margin-top: 20vw;
     margin-left: 12vw;
 	z-index: 2;
 	width: 45%;
@@ -87,9 +87,15 @@ body {
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
-    width: 47%;
+    width: 100%;
     padding: 1vw;
 	cursor: pointer;
+}
+.wrapped div{
+	display: -webkit-flex;
+    display: flex;
+	justify-content: center;
+	flex-direction: column
 }
 .wrapped:hover{
 	background-color: white;
@@ -118,6 +124,23 @@ body {
 }
 .project_logo{
     width: 15vw;
+}
+.project-bt{
+	margin-left: 1vw;
+}
+.project-bt button{
+	font-family: "Poppins", sans-serif;
+    color: rgba(0,0,0,0.7);
+    font-size: 1vw;
+    padding: 0.3vw 1vw;
+    border: 1px solid rgba(0,0,0,0.2);
+    cursor: pointer;
+    text-transform: uppercase;
+	font-weight: 500;
+	background-color: transparent;
+}
+.project-tx{
+	width: 60%;
 }
 @media screen and (max-width: 900px){
 }

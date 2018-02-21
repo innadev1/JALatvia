@@ -23,9 +23,9 @@
 		<h2>Nākamie Ričardi Brensoni<br> un Stīvi Džobsi</h2>
 		<p>“Šo deviņu mēnešu laikā, sākot no biznesa plāna rakstīšanas un beidzot ar uzvaru, iemācījāmies vairāk nekā visas vidusskolas laikā līdz šim. Veidojot skolēnu mācību uzņēmumu, spējām labāk izprast tirgus darbību. Iespējams, lielākā problēma, ar kuru saskārāmies, bija pieredzes trūkums. ...”
 		</p>
-		<p>
-		<a id="vairak"><span>rādīt vairāk</span></a>
-		</p>
+		<div id="top-bt">
+			<a href=""><button id="main-button-on-top">Lasīt vairāk</button></a>
+		</div>
 	</div>
 	<div class="capture_stasti_2">
 		<p>Nākamie Ričardi Brensoni<br> un Stīvi Džobsi</p>
@@ -68,6 +68,22 @@
 				<h1>Nākamie Ričardi Brensoni un Stīvi Džobsi</h1>
 			</div>
 			<div id="w9">
+				<p>01 JUN | 2017</p>
+				<h1>Nākamie Ričardi Brensoni un Stīvi Džobsi</h1>
+			</div>
+			<div id="w10">
+				<p>01 JUN | 2017</p>
+				<h1>Nākamie Ričardi Brensoni un Stīvi Džobsi</h1>
+			</div>
+			<div id="w11">
+				<p>01 JUN | 2017</p>
+				<h1>Nākamie Ričardi Brensoni un Stīvi Džobsi</h1>
+			</div>
+			<div id="w12">
+				<p>01 JUN | 2017</p>
+				<h1>Nākamie Ričardi Brensoni un Stīvi Džobsi</h1>
+			</div>
+						<div id="w9">
 				<p>01 JUN | 2017</p>
 				<h1>Nākamie Ričardi Brensoni un Stīvi Džobsi</h1>
 			</div>

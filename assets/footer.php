@@ -30,35 +30,50 @@
 			<div id="footer_3" class="footer_block">
 				<h1>Saturs</h1>
 					<ul>
-						<li><a href="#header">sākums</a></li>
-						<li><a href="#tours">par JA Latvia</a></li>
-						<li><a href="#about_us">programmas</a></li>
+						<li><a href="#header">Sākums</a></li>
+						<li><a href="#header">Aktuālitātes</a></li>
+						<li><a href="#tours">Dalībskolām</a></li>
+						<li><a href="#about_us">SMU</a></li>
 					</ul>
 			</div>
 			
 			<div id="footer_3" class="footer_block">
 				<h1>&nbsp;</h1>
 					<ul>
-						<li><a href="#footer">ziņas</a></li>
-						<li><a href="#footer">iesaisties</a></li>
-						<li><a href="#footer">kontakti</a></li>
+						<li><a href="#footer">TITAN</a></li>
+						<li><a href="#footer">Biznesa pasaku konkurss</a></li>
+						<li><a href="#footer">Mana vārdnīcīņa</a></li>
+						<li><a href="#footer">Ēnu diena</a></li>
 					</ul>
 			</div>
-					
-			<div id="footer_4" class="footer_block">
-				<h1>Programmas</h1>
+			
+			<div id="footer_3" class="footer_block">
+				<h1>&nbsp;</h1>
 					<ul>
-						<li><a href="#tours">SMU</a></li>
-						<li><a href="#tours">TITAN</a></li>
+						<li><a href="#footer">Līderu programa</a></li>
+						<li><a href="#footer">JA Sertifikāts</a></li>
+						<li><a href="#footer">Starptautiskie projekti</a></li>
+						<li><a href="#footer">Gada labākais ekonomikā</a></li>
 					</ul>
 			</div>
-					
-			<div id="footer_5" class="footer_block"><h1>Tags</h1></div>
-					
-			<div id="footer_6" class="footer_block" style="text-align: center;"><h1>Seko mums:</h1>
-			<div class="footer_links" id="facebook"><a href="https://facebook.com"><img src="img/logos/facebook.png"></a></div>
-			<div class="footer_links" id="twitter"><a href="https://twitter.com"><img src="img/logos/twitter.png"></a></div>
-			<div class="footer_links" id="instagram"><a href="https://instagram.com"><img src="img/logos/instagram.png"></a></div>
+			
+			<div id="footer_3" class="footer_block">
+				<h1>&nbsp;</h1>
+					<ul>
+						<li><a href="#footer">Partneri</a></li>
+						<li><a href="#footer">Foto</a></li>
+						<li><a href="#footer">Veiksmes stāsti</a></li>
+						<li><a href="#footer">Par mums</a></li>
+					</ul>
+			</div>
+				
+			<div id="footer_6" class="footer_block" style="text-align: center;">
+				<h1>Seko mums:</h1>
+				<div id="footer-link">
+					<div class="footer_links" id="facebook"><a href="https://facebook.com"><img src="img/logos/facebook.png"></a></div>
+					<div class="footer_links" id="twitter"><a href="https://twitter.com"><img src="img/logos/twitter.png"></a></div>
+					<div class="footer_links" id="instagram"><a href="https://instagram.com"><img src="img/logos/instagram.png"></a></div>
+				</div>
 			</div>
 	</div>
 	

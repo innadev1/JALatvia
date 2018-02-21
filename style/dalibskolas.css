@@ -36,16 +36,14 @@ body{
 	background-color: rgba(35,192,76,0.2);
 	border: 1px solid rgba(35,192,76,0.2);
 }
-#dalibskolas_content{
-	padding-top: 6vw;
+#dalibskolas_content-2{
+	padding-top: 1vw;
 	padding-bottom: 6vw;
 }
 #map{
 	width: 60%;
     margin: auto;
-}
-#map img{
-	width: 100%;
+	height: 30vw;
 }
 .skolas{
 	font-family: "Poppins", sans-serif;
@@ -69,6 +67,322 @@ body{
     color: rgb(0,0,0);
     line-height: 0.8vw;
     font-weight: 400;
+}
+#buttons a{
+    font-size: unset;
+    font-family: unset;
+    color: unset;
+    line-height: unset;
+    margin: unset;
+    padding-bottom: unset;
+    cursor: pointer;
+}
+
+.capture_dalibskolas{
+    position: absolute;
+    margin-top: 17vw;
+    margin-left: 12vw;
+	z-index: 2;
+	width: 38%;
+}
+.capture_dalibskolas h2{
+	margin: 0;
+    font-family: "Poppins", sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: left;
+    font-size: 2vw;
+    line-height: 3vw;
+    padding-bottom: 1vw;
+}
+.capture_dalibskolas p{
+	margin: 0;
+    font-size: 0.9vw;
+    font-family: "Poppins", sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.5vw;
+    text-align: left;
+    opacity: 0.8;
+}
+#top-bt{
+	display: -webkit-flex;
+    display: flex;
+}
+#top-bt p{
+	width: 11vw;
+    margin: 1vw;
+}
+#top-bt p span{
+	color: white;
+    font-size: 0.6vw;
+    margin: 0;
+	line-height: 1.5;
+}
+.dalibskolas_content-1{
+	padding-top: 2vw;
+    padding-bottom: 2vw;
+    width: 60%;
+    margin: auto;
+}
+.dalibskolas_content-1 h3{
+	margin: 0;
+    margin-bottom: 3vw;
+    text-align: center;
+    font-size: 1.1vw;
+}
+.wrap{
+	display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+}
+.wrapped{
+	display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    width: 50%;
+	height: 10vw;
+	cursor: pointer;
+	align-items: center;
+}
+.wrapped div, .wrapped1 div{
+	display: -webkit-flex;
+    display: flex;
+	justify-content: center;
+	flex-direction: column
+}
+.wrapped:hover, .wrapped1:hover{
+	background-color: white;
+}
+.wrapped h1, .wrapped1 h1{
+	font-size: 1vw;
+    font-family: "Poppins", sans-serif;
+    color: black;
+    font-weight: bold;
+    text-align: left;
+    margin: 0;
+    line-height: 1.6vw;
+	margin-bottom: 0.2vw;
+}
+.wrapped p, .wrapped1 p{
+	font-size: 0.7vw;
+    font-family: "Poppins";
+    color: black;
+    line-height: 1vw;
+    text-align: justify;
+    margin: 0;
+	padding-bottom: 0.5vw;
+}
+.wrapped span, .wrapped1 span{
+	font-size: 0.6vw;
+}
+.project_logo{
+    width: 15vw;
+}
+.logo1, .logo2, .logo3, .logo4{
+	background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    background-position-x: 50%;
+    background-size: 40%;
+    background-position-y: 50%;
+    height: 100%;
+}
+.logo5, .logo6, .logo7{
+	background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    background-position-x: 50%;
+    background-size: 70%;
+    background-position-y: 50%;
+    height: 100%;
+}
+.wrapped_text{
+	width: 70%;
+	padding: 1.5vw;
+}
+.logos-{
+	width: 30%;
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+	height: 8vw;
+	margin-left:1vw;
+}
+.logo1{background-image: url(../img/logos/11.png);}
+.logo2{background-image: url(../img/logos/44.png);}
+.logo3{background-image: url(../img/logos/22.png);}
+.logo4{background-image: url(../img/logos/33.png);}
+
+
+#quote {
+    background-image: url(../img/bilde2.jpg) !important;
+}
+
+
+.wrapped1{
+	display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    width: 33.33333%;
+	height: 13vw;
+	cursor: pointer;
+	align-items: center;
+}
+.logos-1{
+	width: 30%;
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+	height: 5vw;
+	margin-left:1vw;
+}
+.logo5{background-image: url(../img/logos/10.png);}
+.logo6{background-image: url(../img/logos/13.png);}
+.logo7{background-image: url(../img/logos/12.png);}
+
+
+.flex-dalibskolas{
+	display: -webkit-flex;
+    display: flex;
+	justify-content: center;
+    flex-wrap: wrap;
+}
+.one-flex{
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 10vw;
+    width: 10vw;
+    padding: 1vw;
+	margin: 1vw;
+}
+.one-flex img{
+    width: 3.5vw;
+    margin: 0.5vw;
+}
+.one-flex p{
+	font-size: 0.7vw;
+    font-family: "Poppins";
+    color: black;
+    line-height: 1vw;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 0.5vw;
+}
+.text-akt{
+	display: -webkit-flex;
+    display: flex;
+}
+.text-akt p{
+	font-size: 0.8vw;
+    font-family: "Poppins";
+    color: black;
+    line-height: 1vw;
+    text-align: left;
+    margin: 0;
+    padding-bottom: 0.5vw;
+	width: 50%;
+	margin-right: 1vw;
+}
+
+.wrap-reversed{
+	display: -webkit-flex;
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+#dalibskolas-skolas .wrap-reversed{
+	justify-content: space-between;
+}
+.wrapped-reversed{
+	width: 23%;
+    height: auto;
+	padding: 0.5vw;
+}
+.logos-r{
+	display: -webkit-flex;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.wrap-reversed p{
+	font-size: 0.7vw;
+    font-family: "Poppins";
+    color: black;
+    line-height: 1vw;
+    text-align: justify;
+    margin: 0;
+    padding: 1vw;
+}
+.log{
+	background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    background-position-x: 50%;
+    background-size: 50%;
+    background-position-y: 50%;
+    height: 100%;
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+	width:5vw;
+	height:5vw
+}
+#dalibskolas-skolas .log{
+	background-size: contain;
+	box-shadow: none;
+}
+.wrapped_text-1{
+	padding-top: 1.5vw;
+	padding-bottom: 1.5vw;
+}
+.logo10{
+	background-image: url(../img/logos/15.png);
+}
+.logo11{
+	background-image: url(../img/logos/16.png);
+}
+.logo12{
+	background-image: url(../img/logos/17.png);
+}
+
+.second-block{
+	display: -webkit-flex;
+    display: flex;
+	width: 100%;
+	height: 20vw;
+}
+.second-block p{
+	font-size: 0.7vw;
+    font-family: "Poppins";
+    color: black;
+    line-height: 1vw;
+    text-align: justify;
+    margin: 0;
+    padding: 1vw;
+}
+.second-block img{
+	width: 100%;
+	height: 100%;
+}
+.second-block div:first-child{
+	width: 60%;
+}
+.second-block div:last-child{
+	width: 40%;
+	display: -webkit-flex;
+    display: flex;
+	justify-content:center;
+	align-items:center
+}
+.three .wrapped-reversed{
+	width: 30%;
 }
 @media screen and (max-width: 900px){
 }

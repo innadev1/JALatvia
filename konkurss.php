@@ -12,8 +12,10 @@
 	<div class="capture_konkurss">
 		<h5>Konkurss <b>Biznesa pasaka</b></h5>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+		<div id="top-bt">
+			<a href="foto.php"><button id="main-button-on-top">Foto</button></a>
+		</div>
 	</div>
-	<div class="foto"><button>foto</button></div>
 		<?php include 'assets/header.php'; ?>
 
 		
@@ -74,15 +76,22 @@
 					</tr>
 				</table>
 			</div>
+			
+		</div>
 		
-			<div id="content_4">
-				<div><img src="img/konkurss.png"></div>
-				<div>
-					<img id="element" src="img/element.png">
-					<h1>Sintija Lase</h1>
-					<h2>Kultūras ministrijas komunikācijas speciāliste</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa</p>				
-				</div>
+		<div id="quote">
+			<div class="quote">
+				<h2>Sintija Lase</h2>
+				<p><span>Kultūras ministrijas komunikācijas speciāliste</span></p>	
+			
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa		
+				</p>
+				
+				<div class="green-border-1"></div>
+				<div class="green-border-2"></div>
+				<div class="green-border-3"></div>
+				<div class="el"><img src="img/element.png"></div>
 			</div>
 		</div>
 		

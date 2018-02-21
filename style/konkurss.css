@@ -11,7 +11,7 @@ body{
 .capture{display:none;}
 .capture_konkurss{
 	position: absolute;
-    margin-top: 28vw;
+    margin-top: 20vw;
     margin-left: 12vw;
     z-index: 2;
     width: 35%;
@@ -73,7 +73,6 @@ body{
 	width: 70%;
 	margin: auto;
 	padding-top: 3vw;
-	padding-bottom: 6vw;
 }
 #content_1{
 	margin-top:2vw;

@@ -12,8 +12,10 @@
 	<div class="capture_vardnicina">
 		<h5>Konkurss <b>Mana vārdnīciņa</b></h5>
 		<p>Vārdnīciņā tiek apkopoti ekonomikas jēdzienu skaidrojumi, bērnu vārdiem izteiktie, nevis no grāmatas pārrakstītie. Vārdniīciņu veido trīs paaudzes: skolēni, vecāki, vecvecāki skaidrojot dotos ekonomikas jēdzienus no savas pieredzes. Ģimene palīdz sākumskolas skolēnam izprast saimnieciskās darbības pamatjēdzienus, patstāvīgi domāt, pieņemt lēmumumus, iesaistīties diskusijās.</p>
+			<div id="top-bt">
+				<a href="foto.php"><button id="main-button-on-top">Foto</button></a>
+			</div>
 	</div>
-	<div class="foto"><button>foto</button></div>
 		<?php include 'assets/header.php'; ?>
 
 		<div class="capture_h2"><h2>Skolēni skaidro</h2></div>
@@ -83,20 +85,20 @@
 		
 		</div>
 		
-		<div id="additional_banner">
-		
-			<div class="additional_banner">
-				<h1>Inese Gura</h1>
-				<h2>Kristera un regnāra mamma</h2>
-				<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.</p>
+		<div id="quote">
+			<div class="quote">
+				<h2>Inese Gura</h2>
+				<p><span>Kristera un regnāra mamma</span></p>	
+			
+				<p>
+					“ĒNU DIENA ir iespēja mums kā tehnoloģiju uzņēmumam uzzināt, kā uz pasauli raugās tie, kas ikdienā tehnoloģijas patērē. Mēs rīkojam arī iekšējas “ēnu dienas” saviem pāris gadu strādājušiem darbiniekiem — tajās viņi piedalās vadības augstākā līmeņa sapulcēs. Veiksmīgi uzņēmumi līdzsvaroti apvieno gados vecāku cilvēku pieredzi ar jaunāku cilvēku uzdrīkstēšanos.”
+				</p>
+				
+				<div class="green-border-1"></div>
+				<div class="green-border-2"></div>
+				<div class="green-border-3"></div>
+				<div class="el"><img src="img/element.png"></div>
 			</div>
-		
-		</div>
-		
-		<div id="footer_caption">
-		
-			<h1><span class="fc_span_1">Mana vārdnīciņa</span> no pirmajām klasēm attīsta: <span class="fc_span_2">radošo domāšanu, patstāvību, lēmumu pieņemšanu</span></h1>
-		
 		</div>
 		
 		<?php include 'assets/footer.php'; ?>

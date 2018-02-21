@@ -7,6 +7,20 @@ a{
 	color: inherit;
 	margin: 0;
 }
+#link-top{
+	opacity: 1;
+    position: fixed;
+    width: -webkit-fill-available;
+    height: auto;
+    display: -webkit-flex;
+    display: flex;
+    padding: 0vw 4vw 0vw 4vw;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 100;
+	height: 5vw;
+	top: 0;
+}
 #banner{
     height: 46vw;
     background-size: cover;
@@ -14,65 +28,70 @@ a{
     position: relative;
 	z-index: 1;
 }
-.logo {
-    position: relative;
-    left: 4vw;
-    top: 2vw;
+#logo{
+	display: -webkit-flex;
+    display: flex;
+	justify-content: center;
+    align-items: center;
 }
-#links_logo img {
-    width: 9%;
+#logo a{
+	padding: 0
 }
-.links_logo {
-    position: absolute;
+.menu{
+	width: 3vw;
+    margin-left: 7vw;
+}
+.menu img{
+	width: 100%;
+	cursor: pointer;
+}
+.logo{
+	background-size: cover;
+    background-repeat: no-repeat;
+	background-image: url(../img/logo.png);
+	height: 2.5vw;
+    width: 10vw;
+	z-index: 100;
+}
+.login {
     font-size: 0.8vw;
     font-family: 'Poppins', sans-serif;
-    top: 3vw;
-    left: 16vw;
-    color: white;
-}
-.links_logo a{
-    font-size: 0.6vw;
-    padding-bottom: 0;
-    line-height: unset;
-    border-right: 1px solid;
-    padding-right: 0.5vw;
-}
-#links_logo li {
-    display: inline;
-    list-style: none;
-    margin-right: 0.2vw;
-    cursor: pointer;
 	opacity: 0.8;
+	z-index: 100;
 }
-#links_logo a:hover{
-	color: #2cc654;
-}
-#login {
-    right: 5vw;
-    position: absolute;
-    font-size: 0.8vw;
-    font-family: 'Poppins', sans-serif;
-    top: 3vw;
-    color: white;
-	opacity: 0.8;
-}
-#login a{
+.login a{
 	font-size: 0.9vw;
 }
-#login li {
+.login li {
     display: inline;
     list-style: none;
     margin-right: 1vw;
     cursor: pointer;
 }
-#login li:hover{
-	color:#2cc654;
+#link-top .login a{
+	color: white
 }
+.login a:hover{
+	color: #2cc654 !important;
+}
+.login li:hover{
+	color:#2cc654 !important;
+}
+#link-top.show{
+	background-color: rgba(255,255,255,0.9);
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+#link-top.show .logo{
+	background-image: url(../img/jal-color.png);
+}
+#link-top.show .login a{
+	color: rgb(159, 159, 159)
+}
+
 .capture{
     position: absolute;
     margin-top: 17vw;
     margin-left: 12vw;
-	z-index: 2;
 	width: 32%;
 }
 .capture h2{
@@ -101,6 +120,39 @@ a{
 	color:#2cc654;
 }
 
+#menu-content{
+	display:none;
+    position: fixed;
+    background-color: rgba(7,205,96,0.9);
+    padding: 6vw;
+	padding-top: 7vw;
+    top: 0;
+    z-index: 99;
+}
+#menu-content a{
+    font-size: 1.2vw;
+    line-height: 2vw;
+    font-weight: 500;
+	opacity: 0.7;
+}
+#menu-content a:hover{
+	opacity: 1;
+}
+#menu-content li{
+	padding: 0;
+	line-height: 2vw;
+}
+.sub{
+	margin-left: 2vw;
+	display: none;
+}
+
+.collapsed span:before{
+	content: "⯆";
+}
+.expanded span:after{
+	content: "⯅";
+}
 @media screen and (max-width: 1400px){
 .links_logo a{
     font-size: 0.8vw;

@@ -11,10 +11,10 @@ body{
 .capture{display:none;}
 .capture_vardnicina{
 	position: absolute;
-    margin-top: 28vw;
+    margin-top: 20vw;
     margin-left: 12vw;
     z-index: 2;
-    width: 46%;
+    width: 35%;
 }
 .capture_vardnicina h5{
 	color: white;
@@ -73,6 +73,7 @@ body{
 	width: 70%;
 	margin: auto;
 	flex-wrap: wrap;
+	padding-bottom: 3vw;
 }
 #main_mana_vardnicina div{
 	background-blend-mode: multiply;
@@ -80,15 +81,28 @@ body{
 	height: 15vw;
 	margin: 1vw;
     text-align: center;
-	padding: 3vw;
     box-sizing: border-box;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
 	cursor: pointer;
+	display: -webkit-flex;
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
 }
 #main_mana_vardnicina div:hover{
-	background-color: rgba(247, 227, 1, 0.9);
+	background-image: -moz-linear-gradient( 141deg, rgb(19,172,123) 0%, rgb(0,203,94) 98%);
+	background-image: -webkit-linear-gradient( 141deg, rgb(19,172,123) 0%, rgb(0,203,94) 98%);
+	background-image: -ms-linear-gradient( 141deg, rgb(19,172,123) 0%, rgb(0,203,94) 98%);
+}
+#main_mana_vardnicina div:hover p{
+	display:none
+}
+#main_mana_vardnicina div:hover h1{
+	color: white
 }
 #main_mana_vardnicina p{
 	font-family: "Poppins", sans-serif;
@@ -111,18 +125,10 @@ body{
     font-weight: bold;
     letter-spacing: 0.1vw;
 }
-#w1{background-color:rgb(247,245,245);}
-#w2{background-color:rgb(232,232,232);}
-#w3{background-color:rgb(203,203,203);}
-#w4{background-color:rgb(203,203,203);}
-#w5{background-color:rgb(232,232,232);}
-#w6{background-color:rgb(247,245,245);}
-#w7{background-color:rgb(247,245,245);}
-#w8{background-color:rgb(232,232,232);}
-#w9{background-color:rgb(203,203,203);}
-#w10{background-color:rgb(203,203,203);}
-#w11{background-color:rgb(247,245,245);}
-#w12{background-color:rgb(232,232,232);}
+#main_mana_vardnicina div{
+	border: 1px solid rgba(0,0,0,0.2);
+	border-radius: 0.4vw;
+}
 .capture_h2{
 	padding-top: 5vw;
 }
@@ -190,6 +196,9 @@ body{
 	color: rgba(247, 227, 1, 1);
 	text-transform: uppercase;
 	
+}
+#quote {
+    background-image: url(../img/3.jpg) !important;
 }
 @media screen and (max-width: 900px){
 }

@@ -8,222 +8,206 @@
     </head>
 
 	<body>
-		<div id="buttons">
-			<div><button>Dalībskolām</button></div>
-			<div><button>Dalībskolas</button></div>
-			<div><button>Skolotāju apmācības</button></div>
-			<div><button>Skolu Krustvecāki</button></div>
-			<div><button>Brīvprātīgo klubs</button></div>
-		</div>
-		<?php include 'assets/header.php'; ?>
+		
+		<div class="capture_dalibskolas">
+			<h2>Kļūsti par JA Latvija dalībskolu!</h2>
 
-		<div id="dalibskolas_content">
-			<div id="map"><img src="img/map.jpg"></div>
-			
-			<div class="skolas">
-				<h1><b>Dalībskolas</b> 2016./2017.M.G.</h1>
-				<table>
-					<tr>
-						<td>
-						<p><b>A</b></p>
-						<p>Ādažu vidusskola</p>
-						<p>Madonas pilsētas 1. vidusskola</p>
-						<p>Āgenskalna valsts ģimnāzija</p>
-						<p>Madonas Valsts ģimnāzija</p>
-						<p>Aglonas vidusskola</p>
-						<p>Malnavas koledža</p>
-						<p>Aizkraukles novada ģimnāzija</p>
-						<p>Mālpils internātpamatskola</p>
-						<p>Aizkraukles novada vidusskola</p>
-						<p>Mālpils Profesionālā vidusskola</p>
-						<p>Aizputes vidusskola</p>
-						<p>Maltas speciālā internātpamatskola</p>
-						<p>Alojas Ausekļa vidusskola</p>
-						<p>Maltas vidusskola</p>
-						<p><b>B</b></p>
-						<p>Andreja Eglīša Ļaudonas  vidusskola</p>
-						<p>Mārupes vidusskola</p>
-						<p>Andreja Upīša Skrīveru vidusskola</p>
-						<p>Māteru Jura Kazdangas pamatskola</p>
-						<p>ARPC "Zeimuļs"</p>
-						<p>Mazsalacas vidusskola</p>
-						<p>Babītes vidusskola</p>
-						<p>Mērsraga vidusskola</p>
-						<p>Baldones vidusskola</p>
-						<p>Nautrēnu vidusskola</p>
-						<p>Balvu profesionālā un vispārizglītojošā vidusskola</p>
-						<p>Ogres 1. vidusskola</p>
-						<p><b>C</b></p>
-						<p>Banku augstskolas Uzņēmējdarbības  koledža</p>
-						<p>Ogres tehnikums</p>
-						<p>Bauskas 2. vidusskola</p>
-						<p>Ogres Valsts ģimnāzija</p>
-						<p>Bauskas Valsts ģimnāzija</p>
-						<p>Olaines 1. vidusskola</p>
-						<p>Berģu Mūzikas un mākslas pamatskola</p>
-						<p>Pāles pamatskola</p>
-						<p>Bērzaunes pamatskola</p>
-						<p><b>D</b></p>
-						<p>Pelču speciālā internātpamatskola- attīstības centrs</p>
-						<p>Brāļu Skrindu Atašienes vidusskola</p>
-						<p>PIKC "Liepājas Valsts tehnikums":</p>
-						<p>Cēsu valsts ģimnāzija</p>
-						<p>PIKC "Rīgas Valsts Tehnikums"</p>
-						<p>Daugavpils 13.vidusskola</p>
-						<p>Pļaviņu novada ģimnāzija</p>
-						<p>Daugavpils 3. vidusskola</p>
-						</td>
-						<td>
-						<p><b>E</b></p>
-						<p>Ādažu vidusskola</p>
-						<p>Madonas pilsētas 1. vidusskola</p>
-						<p>Āgenskalna valsts ģimnāzija</p>
-						<p>Madonas Valsts ģimnāzija</p>
-						<p>Aglonas vidusskola</p>
-						<p>Malnavas koledža</p>
-						<p>Aizkraukles novada ģimnāzija</p>
-						<p>Mālpils internātpamatskola</p>
-						<p><b>F</b></p>
-						<p>Aizkraukles novada vidusskola</p>
-						<p>Mālpils Profesionālā vidusskola</p>
-						<p>Aizputes vidusskola</p>
-						<p>Maltas speciālā internātpamatskola</p>
-						<p>Alojas Ausekļa vidusskola</p>
-						<p>Maltas vidusskola</p>
-						<p>Andreja Eglīša Ļaudonas  vidusskola</p>
-						<p>Mārupes vidusskola</p>
-						<p>Andreja Upīša Skrīveru vidusskola</p>
-						<p>Māteru Jura Kazdangas pamatskola</p>
-						<p>ARPC "Zeimuļs"</p>
-						<p>Mazsalacas vidusskola</p>
-						<p><b>G</b></p>
-						<p>Babītes vidusskola</p>
-						<p>Mērsraga vidusskola</p>
-						<p>Baldones vidusskola</p>
-						<p>Nautrēnu vidusskola</p>
-						<p>Balvu profesionālā un vispārizglītojošā vidusskola</p>
-						<p>Ogres 1. vidusskola</p>
-						<p>Banku augstskolas Uzņēmējdarbības  koledža</p>
-						<p>Ogres tehnikums</p>
-						<p>Bauskas 2. vidusskola</p>
-						<p>Ogres Valsts ģimnāzija</p>
-						<p>Bauskas Valsts ģimnāzija</p>
-						<p>Olaines 1. vidusskola</p>
-						<p>Berģu Mūzikas un mākslas pamatskola</p>
-						<p>Pāles pamatskola</p>
-						<p>Bērzaunes pamatskola</p>
-						<p><b>H</b></p>
-						<p>Pelču speciālā internātpamatskola- attīstības centrs</p>
-						<p>Brāļu Skrindu Atašienes vidusskola</p>
-						<p>PIKC "Liepājas Valsts tehnikums":</p>
-						<p>Cēsu valsts ģimnāzija</p>
-						<p>PIKC "Rīgas Valsts Tehnikums"</p>
-						<p>Daugavpils 13.vidusskola</p>
-						<p>Pļaviņu novada ģimnāzija</p>
-						<p>Daugavpils 3. vidusskola</p>
-						</td>
-						<td>
-						<p><b>I</b></p>
-						<p>Ādažu vidusskola</p>
-						<p>Madonas pilsētas 1. vidusskola</p>
-						<p>Āgenskalna valsts ģimnāzija</p>
-						<p>Madonas Valsts ģimnāzija</p>
-						<p>Aglonas vidusskola</p>
-						<p>Malnavas koledža</p>
-						<p>Aizkraukles novada ģimnāzija</p>
-						<p>Mālpils internātpamatskola</p>
-						<p>Aizkraukles novada vidusskola</p>
-						<p>Mālpils Profesionālā vidusskola</p>
-						<p>Aizputes vidusskola</p>
-						<p><b>J</b></p>
-						<p>Maltas speciālā internātpamatskola</p>
-						<p>Alojas Ausekļa vidusskola</p>
-						<p>Maltas vidusskola</p>
-						<p>Andreja Eglīša Ļaudonas  vidusskola</p>
-						<p>Mārupes vidusskola</p>
-						<p>Andreja Upīša Skrīveru vidusskola</p>
-						<p>Māteru Jura Kazdangas pamatskola</p>
-						<p>ARPC "Zeimuļs"</p>
-						<p>Mazsalacas vidusskola</p>
-						<p>Babītes vidusskola</p>
-						<p>Mērsraga vidusskola</p>
-						<p>Baldones vidusskola</p>
-						<p>Nautrēnu vidusskola</p>
-						<p>Balvu profesionālā un vispārizglītojošā vidusskola</p>
-						<p>Ogres 1. vidusskola</p>
-						<p>Banku augstskolas Uzņēmējdarbības  koledža</p>
-						<p>Ogres tehnikums</p>
-						<p><b>K</b></p>
-						<p>Bauskas 2. vidusskola</p>
-						<p>Ogres Valsts ģimnāzija</p>
-						<p>Bauskas Valsts ģimnāzija</p>
-						<p>Olaines 1. vidusskola</p>
-						<p>Berģu Mūzikas un mākslas pamatskola</p>
-						<p>Pāles pamatskola</p>
-						<p>Bērzaunes pamatskola</p>
-						<p>Pelču speciālā internātpamatskola- attīstības centrs</p>
-						<p>Brāļu Skrindu Atašienes vidusskola</p>
-						<p>PIKC "Liepājas Valsts tehnikums":</p>
-						<p>Cēsu valsts ģimnāzija</p>
-						<p>PIKC "Rīgas Valsts Tehnikums"</p>
-						<p>Daugavpils 13.vidusskola</p>
-						<p>Pļaviņu novada ģimnāzija</p>
-						<p>Daugavpils 3. vidusskola</p>
-						</td>
-						<td>
-						<p><b>M</b></p>
-						<p>Ādažu vidusskola</p>
-						<p>Madonas pilsētas 1. vidusskola</p>
-						<p>Āgenskalna valsts ģimnāzija</p>
-						<p>Madonas Valsts ģimnāzija</p>
-						<p>Aglonas vidusskola</p>
-						<p>Malnavas koledža</p>
-						<p>Aizkraukles novada ģimnāzija</p>
-						<p>Mālpils internātpamatskola</p>
-						<p><b>N</b></p>
-						<p>Aizkraukles novada vidusskola</p>
-						<p>Mālpils Profesionālā vidusskola</p>
-						<p>Aizputes vidusskola</p>
-						<p>Maltas speciālā internātpamatskola</p>
-						<p>Alojas Ausekļa vidusskola</p>
-						<p>Maltas vidusskola</p>
-						<p>Andreja Eglīša Ļaudonas  vidusskola</p>
-						<p>Mārupes vidusskola</p>
-						<p>Andreja Upīša Skrīveru vidusskola</p>
-						<p>Māteru Jura Kazdangas pamatskola</p>
-						<p>ARPC "Zeimuļs"</p>
-						<p>Mazsalacas vidusskola</p>
-						<p><b>O</b></p>
-						<p>Babītes vidusskola</p>
-						<p>Mērsraga vidusskola</p>
-						<p>Baldones vidusskola</p>
-						<p>Nautrēnu vidusskola</p>
-						<p>Balvu profesionālā un vispārizglītojošā vidusskola</p>
-						<p>Ogres 1. vidusskola</p>
-						<p>Banku augstskolas Uzņēmējdarbības  koledža</p>
-						<p>Ogres tehnikums</p>
-						<p>Bauskas 2. vidusskola</p>
-						<p>Ogres Valsts ģimnāzija</p>
-						<p>Bauskas Valsts ģimnāzija</p>
-						<p><b>P</b></p>
-						<p>Olaines 1. vidusskola</p>
-						<p>Berģu Mūzikas un mākslas pamatskola</p>
-						<p>Pāles pamatskola</p>
-						<p>Bērzaunes pamatskola</p>
-						<p>Pelču speciālā internātpamatskola- attīstības centrs</p>
-						<p>Brāļu Skrindu Atašienes vidusskola</p>
-						<p>PIKC "Liepājas Valsts tehnikums":</p>
-						<p>Cēsu valsts ģimnāzija</p>
-						<p><b>R</b></p>
-						<p>PIKC "Rīgas Valsts Tehnikums"</p>
-						<p>Daugavpils 13.vidusskola</p>
-						<p>Pļaviņu novada ģimnāzija</p>
-						<p>Daugavpils 3. vidusskola</p>
-						</td>
-					</tr>
-				</table>
+			<div id="top-bt">
+				<a href="dalibskolas-map.php"><button id="main-button-on-top">Saraksts</button></a>
+				<p>
+					<span>
+						2016./2017. mācību gada lojalitātes programmā iekļauto mācību iestāžu saraksts
+					</span>
+				</p>
 			</div>
 		</div>
+
+		<?php include 'assets/header.php'; ?>
+
+		<div class="dalibskolas_content-1">
+			<div class="wrap">
+				<div class="wrapped">
+					<div class="logos-"><div class="logo1"></div></div>
+					<div class="wrapped_text">
+						<p>Biznesa izglītības biedrība Junior Achievement Latvija sirsnīgi sveic Jūs un Jūsu kolektīvu ar jaunā mācību gada uzsākšanu un aicina iesaistīties JA Latvija praktiskās uzņēmējdarbības izglītības programmā!</p>
+					</div>
+				</div>
+				<div class="wrapped">
+					<div class="logos-"><div class="logo2"></div></div>
+					<div class="wrapped_text">
+						<p>Biedrības Junior Achievement Latvija (JA Latvija) praktisko mācību programmu īstenošana Latvijas skolās 25 gadu darbības laikā pierādījušas sevi kā vienu no efektīvākajām mācību metodēm skolēnu un skolotāju uzņēmējspēju un prasmju attīstīšanā.</p>
+					</div>
+				</div>
+				<div class="wrapped">
+					<div class="logos-"><div class="logo3"></div></div>
+					<div class="wrapped_text">
+						<p>JA Latvija piedāvātās mācību metodes dod iespēju apgūt praktiski Izglītības un Zinātnes ministrijas (IZM) mācību priekšmetu programmās iekļautos teorētiskos jautājumus, ļaujot skolēniem saskatīt akadēmisko zināšanu pielietojamību reālajā dzīvē.</p>
+					</div>
+				</div>
+				<div class="wrapped">
+					<div class="logos-"><div class="logo4"></div></div>
+					<div class="wrapped_text">
+						<p>87% skolotāju Eiropā iesaka Junior Achievement mācīšanas metodes saviem kolēģiem. 2/3 skolēnu atzīst, ka Junior Achievement programmas padara skolu daudz interesantāku un iedvesmojošāku – programmas pozitīvi izmaina jauniešu attieksmi pret mācībām, jo uzskatāmi demonstrē saistību starp teoriju un praksi.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div id="quote">
+			<div class="quote">
+				<h2>Andris Priekulis</h2>
+				<p><span>Rīgas 3. ģimnāzijas direktors</span></p>	
+			
+				<p>
+					„Vēlreiz pārliecinājos, cik svarīgi vienlaikus ar citām kompetencēm skolēnos attīstīt uzņēmējspējas. Man ir ārkārtīgi liels gandarījums redzēt, ka latviešu dalībnieki it nemaz neatpaliek no Eiropas līmeņa un kvalitātes ziņā pat ierindojas tā augšgalā! JA Latvija ir ļoti patīkams skolas partneris – biedrībai ir instrumenti, resursi, cilvēkresursi un sadarbības partneri, kas sniedz skolēnu izglītībai tādu pievienoto vērtību, ko pati skola nekad nevarēs nodrošināt!
+				</p>
+				
+				<div class="green-border-1"></div>
+				<div class="green-border-2"></div>
+				<div class="green-border-3"></div>
+				<div class="el"><img src="img/element.png"></div>
+			</div>
+		</div>
+		
+		<div class="dalibskolas_content-1">
+			<div class="wrap">
+				<div class="wrapped1">
+					<div class="logos-1"><div class="logo5"></div></div>
+					<div class="wrapped_text">
+						<h1>Svarīgi!</h1>
+						<p>Katru nākamo mācību gadu līgums jāslēdz atkārtoti, izņemot mācību iestādes, kuras ir noslēgušas sadarbības līgumu uz 3 mācību gadiem (atkārtots līgums jāslēdz pēc līgumā norādītā termiņa beigām)!</p>
+					</div>
+				</div>
+				<div class="wrapped1">
+					<div class="logos-1"><div class="logo6"></div></div>
+					<div class="wrapped_text">
+						<h1>Sadarbības līgumi</h1>
+						<p>1 mācību gadam<br>
+						3 mācību gadiem (2017-2020)<br>
+						Pielikums</p>
+					</div>
+				</div>
+				<div class="wrapped1">
+					<div class="logos-1"><div class="logo7"></div></div>
+					<div class="wrapped_text">
+						<h1>Dalībskolu lojalitātes<br> programma</h1>
+						<p>Skolas, kuras bez pārtraukuma ir bijušas JA Latvija dalībskolas 5 gadus un ilgāk, saņem atlaidi 10% JA Latvija dalībskolu gada maksai.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="dalibskolas_content-1">
+			<h3>Kāpēc izdevīgi slēgt Sadarbības līgumu uz 3 mācību gadiem?</h3>
+			
+			<div class="flex-dalibskolas">
+			
+				<div class="one-flex">
+					<div><img src="img/logos/1.png"></div>
+					<div>
+						<p>nākamajos 2 mācību 
+						gadus Sadarbības līgums 
+						atkārtoti nav jāslēdz;</p>
+					</div>
+				</div>
+				
+				<div class="one-flex">
+					<div><img src="img/logos/4.png"></div>
+					<div>
+						<p>nemainīga 
+						dalības maksa</p>
+					</div>
+				</div>
+				
+				<div class="one-flex">
+					<div><img src="img/logos/7.png"></div>
+					<div>
+						<p>dalības maksu veic par katru mācību gadu atsevišķi, saņemot rēķinu jaunā mācību gada sākumā</p>
+					</div>
+				</div>
+				
+				<div class="one-flex">
+					<div><img src="img/logos/9.png"></div>
+					<div>
+						<p>laužot līgumu, 
+						nav soda sankciju</p>
+					</div>
+				</div>
+			
+			</div>
+		</div>
+		
+		<div class="dalibskolas_content-1">
+			<h3>Līguma slēgšanas kārtība</h3>
+			<div class="flex-dalibskolas">
+			
+				<div class="one-flex">
+					<div><img src="img/logos/2.png"></div>
+					<div>
+						<p>Aizpildiet atbilstošo 
+						Sadarbības līgumu 
+						un izdrukājiet to divos 
+						eksemplāros</p>
+					</div>
+				</div>
+				
+				<div class="one-flex">
+					<div><img src="img/logos/5.png"></div>
+					<div>
+						<p>Skolas direktors paraksta un apzīmogo abus eksemplārus</p>
+					</div>
+				</div>
+				
+				<div class="one-flex">
+					<div><img src="img/logos/2.png"></div>
+					<div>
+						<p>Abus eksemplārus sūtiet pa pastu uz JA Latvija biroju, adrese: Rīgā, Ūdens iela 12-21, LV-1007</p>
+					</div>
+				</div>
+				
+				<div class="one-flex">
+					<div><img src="img/logos/14.png"></div>
+					<div>
+						<p>Saņemot līgumu, JA Latvija tam piešķir Līguma numuru, to paraksta un ievada skolu JA Latvija datubāzē</p>
+					</div>
+				</div>
+			
+				<div class="one-flex">
+					<div><img src="img/logos/6.png"></div>
+					<div>
+						<p>JA Latvija nosūta dalībskolas līguma eksemplāru kopā ar rēķinu uz skolas norādīto adresi</p>
+					</div>
+				</div>
+				
+				<div class="one-flex">
+					<div><img src="img/logos/13.png"></div>
+					<div>
+						<p>Skola apmaksā rēķinu un ir pilntiesīga JA Latvija dalībskola</p>
+					</div>
+				</div>
+				
+				<div class="one-flex">
+					<div><img src="img/logos/3.png"></div>
+					<div>
+						<p>Pēc Sadarbības līguma noslēgšanas un rēķina apmaksas skolotājs vai konsultants gūst piekļuvi ....</p>
+					</div>
+				</div>
+			
+			</div>
+		</div>
+		
+		<div class="dalibskolas_content-1">
+			<div class="text-akt">
+				<p>
+				<b>Ja vēlaties kļūt par JA Latvija dalībskolu, bet Jūsu skola nevar samaksāt dalības maksu,</b> aicinām vērsties pie Jūsu skolas absolventiem, novada un pilsētas uzņēmējiem, Jūsu pašvaldības, skolēnu vecāku padomes un aicināt kādu no iepriekš minētajiem kļūt par Skolas Krustvecāku.
+				</p>
+				<p>
+				JA Latvija piedāvā konsultācijas Skolas krustvecāku piesaistē. Konsultācijas saņemšanai lūdzu rakstīt uz e-pastu - jal@jal.lv
+				</p>
+			</div>
+		</div>
+		
+		
 		<?php include 'assets/footer.php'; ?>
 	</body>
 </html>

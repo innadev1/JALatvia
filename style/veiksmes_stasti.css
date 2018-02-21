@@ -8,7 +8,7 @@
 .capture{display:none;}
 .capture_stasti{
     position: absolute;
-    margin-top: 23vw;
+    margin-top: 20vw;
     margin-left: 12vw;
 	z-index: 2;
 	width: 38%;
@@ -75,21 +75,26 @@
 }
 #main_veiksmes_stasti{
 	padding-top: 2vw;
+	padding-bottom: 2vw;
 	width: 70%;
 	margin: auto;
 	flex-wrap: wrap;
 }
 #main_veiksmes_stasti div{
-	width: 30%;
-	height: 15vw;
-	margin: 1vw;
-	text-align: center;
-	padding: 3vw;
+	width: 24.4%;
+    height: 10vw;
+    margin: 0.2vw;
+    text-align: center;
     box-sizing: border-box;
-	background-size: cover;
+    background-size: cover;
     background-repeat: no-repeat;
     position: relative;
-	cursor: pointer;
+    cursor: pointer;
+	display: -webkit-flex;
+    display: flex;
+	flex-direction:column;
+	justify-content: center;
+	align-items: center
 }
 #main_veiksmes_stasti div:hover{
 	background-blend-mode: multiply;
@@ -100,15 +105,17 @@
 	color: rgb(255, 255, 255);
 	margin: 0;
 	font-size: 0.8vw;
-	margin-bottom: 4vw;
+	margin-bottom: 1vw;
 }
 #main_veiksmes_stasti h1{
     font-family: "Poppins", sans-serif;
     color: rgb(255, 255, 255);
     margin: 0;
-    font-size: 1.1vw;
+    font-size: 0.9vw;
     line-height: 1.5vw;
     font-weight: 400;
+	width: 12vw;
+    margin: 0;
 }
 #w1{background-image: url(../img/foto/1.jpg);}
 #w2{background-image: url(../img/foto/2.jpg);}

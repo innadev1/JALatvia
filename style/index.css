@@ -81,6 +81,7 @@ p{}
     display: flex;
 	overflow: hidden;
 	height: 8vw;
+	z-index: 0;
 }
 .date{
 	display: -webkit-box;
@@ -175,6 +176,10 @@ p{}
     line-height: 1.6vw;
     margin-top: 2vw;
     height: 5vw;
+	cursor: pointer
+}
+.wrap div h1:hover {
+	color: #07cd60
 }
 .wrap div h2 {
     font-size: 1.4vw;
@@ -291,7 +296,7 @@ p{}
 	padding: 8vw 48vw 10vw 10vw;
 }
 .junior_text_block h2{
-	font-size: 2.7vw;
+	font-size: 2vw;
     font-family: "Poppins", sans-serif;
     color: rgb(139, 139, 139);
     font-weight: bold;
@@ -304,7 +309,6 @@ p{}
     font-family: "Poppins", sans-serif;
     color: rgb(99, 99, 99);
     text-align: justify;
-    padding-left: 4vw;
     padding-right: 8vw;
 }
 .junior_f_photo{
@@ -318,46 +322,22 @@ p{}
     top: 8vw;
 }
 .junior_s_photo{
-	background-image: url(../img/gal/4.jpg);
+    background-image: url(../img/gal/4.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     position: absolute;
-    width: 28vw;
-    height: 18vw;
-    right: 9vw;
-    top: 14vw;
-	box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    width: 35vw;
+    height: 24vw;
+    right: 10vw;
+    top: 8vw;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
 }
-#banner_2{
-	height: 34vw;
-    background-image: url(../img/background2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
+#quote{
+	height: 34vw !important;
+    background-image: url(../img/background2.jpg) !important;
 }
-#banner_2_text{
-	padding: 7vw 48vw 4vw 8vw;
-}
-.banner_2_text{
-	padding: 2vw;
-    border-left: 0.7vw solid rgb(4, 179, 83);
-    border-top: 0.7vw solid rgb(4, 179, 83);
-    border-bottom: 0.7vw solid rgb(4, 179, 83);
-}
-.banner_2_text h3{
-	margin: 0;
-    font-size: 2.2vw;
-    font-family: "Poppins", sans-serif;
-    color: rgb(4, 179, 83);
-    font-weight: bold;
-    text-align: left;
-    line-height: 2.5vw;
-}
-.banner_2_text p{
-	font-size: 1vw;
-    font-family: "Poppins", sans-serif;
-    color: rgba(255, 255, 255, 0.8);
-    text-align: left;
+.quote{
+    width: 20vw !important;
 }
 #facebook_info{
 	background-color: #ececec;

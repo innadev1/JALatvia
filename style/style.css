@@ -7,6 +7,7 @@ body{
 	margin: 0;
     overflow-x: hidden;
 	background-color: #ececec;
+	font-family: "Poppins", sans-serif;
 }
 ul, li{
 	margin: 0;
@@ -22,4 +23,106 @@ button:focus{
 }
 input:focus{
 	outline: none;
+}
+
+.main_info {
+    padding-top: 4vw;
+    padding-bottom: 2vw;
+    width: 60%;
+    margin: auto;
+}
+.main_info p {
+    margin: 0;
+    font-size: 0.9vw;
+    font-family: "Poppins", sans-serif;
+    color: rgb(0,0,0);
+    line-height: 1.5vw;
+    text-align: justify;
+	margin-bottom: 2vw;
+}
+#quote{
+	height: 28vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+	background-image: url(../img/1.jpg);
+	display: -webkit-flex;
+    display: flex;
+	align-items: center;
+}
+.quote{
+    position: relative;
+    width: 33vw;
+    left: 20%;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+	height: fit-content;
+}
+.quote p{
+	margin: 0;
+    font-size: 0.9vw;
+    font-family: "Poppins", sans-serif;
+    color: rgb(255,255,255);
+    line-height: 1.5vw;
+    text-align: justify;
+    margin-bottom: 1vw;
+}
+.quote span{
+	font-size: 0.8vw;
+}
+.quote h2{
+	margin: 0;
+	font-size: 1.5vw;
+	font-weight: 600;
+	color: white;
+	font-family: "Poppins", sans-serif;
+}
+.green-border-1{
+    position: absolute;
+    border-left: 1.5vw solid #2cc654;
+    height: 100%;
+    left: -3vw;
+    top: 0;
+}
+.green-border-2{
+	position: absolute;
+	border-top: 1.5vw solid #2cc654;
+    top: -1vw;
+    width: 25%;
+    left: -3vw;
+}
+.green-border-3{
+	position: absolute;
+	border-bottom: 1.5vw solid #2cc654;
+	width: 50%;
+	left: -3vw;
+	bottom: 0;
+}
+.el{
+	position: absolute;
+    right: 0;
+    top: 0;
+    width: 4vw;	
+}
+.el img{
+	width: 100%;
+}
+
+#main-button-on-top:hover {
+    color: #2cc654;
+    background-color: rgba(35,192,76,0.2);
+    border: 1px solid rgba(35,192,76,0.2);
+}
+
+#main-button-on-top{
+    font-family: "Poppins", sans-serif;
+    background-color: rgba(255,255,255,0.2);
+    color: white;
+    font-size: 1vw;
+    padding: 0.5vw 2vw;
+    margin: 1vw;
+	margin-left: 0;
+    border: 1px solid rgba(255,255,255,0.2);
+    cursor: pointer;
+    text-transform: uppercase;
 }

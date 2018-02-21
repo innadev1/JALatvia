@@ -15,57 +15,125 @@
 			</p>
 			<p>Pagājušajā mācību gadā programmu absolvēja 14 jaunieši.</p>
 		</div>
-		<div id="buttons_programma">
-			<button>Programmas darbība</button>
-			<button>Dalībnieki</button>
-			<button>Mentori un kouči</button>
-		</div>
 		<?php include 'assets/header.php'; ?>
 
 			<div id="main_programma">
-				<div class="headers">
-					<div id="h1"><p>Atlase</p></div>
-					<div id="h2"><p>Novembris</p></div>
-					<div id="h3"><p>Personības<br> izaugsmes<br> 1. meistarklase</p></div>
-					<div id="h4"><p>Atbalsta tikšanas</p></div>
-					<div id="h5"><p>Sadarbības<br> uzsākšana<br> ar mentoru</p></div>
-					<div id="h6"><p>Personības<br> izaugsmes<br> 2. meistarklase</p></div>
-					<div id="h7"><p>Personības<br> izaugsmes<br> 3. meistarklase</p></div>
-					<div id="h8"><p>Personības<br> izaugsmes<br> 4. meistarklase<br> vasaras nometne</p></div>
-					<div id="h9"><p>Projektu<br> aizstāvēšana - <br> salidojums</p></div>
-					<div id="h10"><p>Izlaidums<br> projekta<br> rezultātu<br> prezentācijas</p></div>
-					<div id="h11"><p>Septembris</p></div>
+			
+				<div class="flex-prog">
+				
+					<div class="one-flex">
+						<div><img src="img/logos/48.png"></div>
+						<div>
+							<p>Personības izaugsme
+							1.meistarklase</p>
+						</div>
+					</div>
+					
+					<div class="one-flex">
+						<div><img src="img/logos/45.png"></div>
+						<div>
+							<p>Atbalsta tikšanās</p>
+						</div>
+					</div>
+					
+					<div class="one-flex">
+						<div><img src="img/logos/46.png"></div>
+						<div>
+							<p>Sadarbības uzsākšana 
+							ar mentoru</p>
+						</div>
+					</div>
+					
+					<div class="one-flex">
+						<div><img src="img/logos/48.png"></div>
+						<div>
+							<p>Personības izaugsmes
+							2.meistarklase</p>
+						</div>
+					</div>
+				
 				</div>
 				
+				<div class="flex-prog">
+				
+					<div class="one-flex">
+						<div><img src="img/logos/45.png"></div>
+						<div>
+							<p>Personības izaugsmes3.meistarklase- vasaras nometne</p>
+						</div>
+					</div>
+					
+					<div class="one-flex">
+						<div><img src="img/logos/48.png"></div>
+						<div>
+							<p>Personības izaugsmes4.meistarklase</p>
+						</div>
+					</div>
+					
+					<div class="one-flex">
+						<div><img src="img/logos/45.png"></div>
+						<div>
+							<p>Projektu aizstāvēšana
+							- salidojums</p>
+						</div>
+					</div>
+					
+					<div class="one-flex">
+						<div><img src="img/logos/49.png"></div>
+						<div>
+							<p>Izlaiduma projektu
+							rezultātu prezentācijas</p>
+						</div>
+					</div>
+				
+				</div>
+
 				<div id="main_info">
 					<div><h5>Programmas darbība</h5></div>
 					<div><p>
 							Līderu programma ir trīs meistarklašu un atbalsta tikšanās cikls, kuru laikā tiek apgūta projektu vadība, laika plānošana, saviesīga sarunu māksla, mediju treniņš, uzņēmējdarbības veidošanas pamati u.c. prasmes. 
-						</p>
-						<p>
+
 							Viena mācību gada laikā Līderu programmas dalībnieki ciešā sadarbībā ar mentoru un kouču īsteno savu projekta ideju, lai pilnībā apzinātu un nākotnē īstenotu savu līdera potenciālu.
 						</p>
 					</div>
 				</div>
 				
-				<div class="wrap">
-					<div>
-						<h1>Topošais līderis</h1>
-						<p>plāno, attīsta un īsteno savu projekta ideju</p>
+				<div class="flex-prog">
+				
+					<div class="one-flex">
+						<div><img src="img/logos/49.png"></div>
+						<div>
+							<h1>Topošais līderis</h1>
+							<p>plāno, attīsta un īsteno savu projekta ideju</p>
+						</div>
 					</div>
-					<div>
-						<h1>Mentors</h1>
-						<p> ar savu pieredzi iedvesmo un iedrošina jaunieti īstenot savu potenciālu</p>					
+					
+					<div class="one-flex">
+						<div><img src="img/logos/45.png"></div>
+						<div>
+							<h1>Mentors</h1>
+							<p>ar savu pieredzi iedvesmo un iedrošina jaunieti īstenot savu potenciālu</p>
+						</div>
 					</div>
-					<div>
-						<h1>Koučs</h1>
-						<p>atbalsta, palīdz noturēt fokusu uz mērķiem un veicina katra līdera potenciāla apzināšanos un attīstību</p>					
+					
+					<div class="one-flex">
+						<div><img src="img/logos/47.png"></div>
+						<div>
+							<h1>Koučs</h1>
+							<p>atbalsta, palīdz noturēt fokusu uz mērķiem un veicina katra līdera potenciāla</p>
+						</div>
 					</div>
-					<div>
-						<h1>Ja Latvia</h1>
-						<p>nodrošina vidi, kas attīsta un pilnveido jaunieša līderības kompetences</p>				
+					
+					<div class="one-flex">
+						<div><img src="img/logos/50.png"></div>
+						<div>
+							<h1>Ja Latvia</h1>
+							<p>nodrošina vidi, kas attīsta un pilnveido jaunieša līderības kompetences</p>	
+						</div>
 					</div>
+				
 				</div>
+				
 			</div>
 		
 		<?php include 'assets/footer.php'; ?>

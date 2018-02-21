@@ -44,6 +44,7 @@ body{background-color: #ececec;}
 }
 .capture_aktualitates a{
 	cursor: pointer;
+	font-size: 0.9vw
 }
 .capture_aktualitates_2{
 	display: none;

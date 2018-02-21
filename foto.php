@@ -13,8 +13,10 @@
 		<h5>#UzdrīkstiesUzvarēt 2017</h5>
 		<h2>uzņēmējdarbības iedvesmas konference</h2>
 		<p>1127 photos  |  600 views</p>
+		<div id="top-bt">
+			<a href=""><button id="main-button-on-top">Skatīt galeriju</button></a>
+		</div>
 	</div>
-	<div class="view_gal"><button>skatīt galeriju</button></div>
 		<?php include 'assets/header.php'; ?>
 
 		<div id="main_foto" class="wrap">
@@ -52,6 +54,22 @@
 				<h1>Nākamie Ričardi Brensoni un Stīvi Džobsi</h1>
 			</div>
 			<div id="w9">
+				<p>01 JUN | 2017</p>
+				<h1>Nākamie Ričardi Brensoni un Stīvi Džobsi</h1>
+			</div>
+			<div id="w10">
+				<p>01 JUN | 2017</p>
+				<h1>Nākamie Ričardi Brensoni un Stīvi Džobsi</h1>
+			</div>
+			<div id="w11">
+				<p>01 JUN | 2017</p>
+				<h1>Nākamie Ričardi Brensoni un Stīvi Džobsi</h1>
+			</div>
+			<div id="w12">
+				<p>01 JUN | 2017</p>
+				<h1>Nākamie Ričardi Brensoni un Stīvi Džobsi</h1>
+			</div>
+						<div id="w9">
 				<p>01 JUN | 2017</p>
 				<h1>Nākamie Ričardi Brensoni un Stīvi Džobsi</h1>
 			</div>
