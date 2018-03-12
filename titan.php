@@ -12,7 +12,7 @@
 			<h2>TITAN</h2>
 			<div id="top-bt">
 				<a href=""><button id="main-button-on-top">Nolikums</button></a>
-				<a href=""><button id="main-button-on-top">Piesakies</button></a>
+				<a href="titan-piesakies.php"><button id="main-button-on-top">Piesakies</button></a>
 			</div>
 		</div>
 		<?php include 'assets/header.php'; ?>

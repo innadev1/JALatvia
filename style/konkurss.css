@@ -245,4 +245,131 @@ body{
     text-align: left;
 }
 @media screen and (max-width: 900px){
+#partners{
+	display:none !important
+}
+.capture_konkurss {
+    position: absolute;
+    width: 77%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    top: 50vw;
+}
+.capture_konkurss h5 {
+    text-align: center;
+    font-size: 5vw;
+    line-height: 1.3;
+    padding-bottom: 3vw;
+}
+.capture_konkurss p {
+    font-size: 3.2vw;
+    line-height: 1.2;
+    text-align: justify;
+}
+
+
+#main_konkurss {
+    width: 100%;
+    margin: auto;
+    padding-top: 0;
+}
+#content_1 {
+    margin-top: 0;
+    margin-bottom: 2vw;
+    background-color: unset;
+    box-shadow: none;
+    position: relative;
+    overflow: hidden;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: auto;
+    width: 90%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+#content_1 .c1:first-child {
+    width: 80%;
+    padding: 3vw;
+    height: auto;
+    border: none !important;
+    margin-bottom: 25vw;
+}
+#content_1 .c1{
+    width: 80%;
+    padding: 3vw;
+    height: auto;
+}
+.img_c1 {
+    position: relative;
+    left: 0;
+    top: 5vw;
+    float: left;
+}
+.img_c1 img {
+    width: 30vw;
+}
+.capture_c1 {
+    z-index: 2;
+    position: absolute;
+    top: 46vw;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+#content_1 h1 {
+    margin: 0;
+    font-size: 4vw;
+    font-family: "Poppins", sans-serif;
+    color: rgb(243, 177, 0);
+    margin-bottom: 1vw;
+    position: absolute;
+    right: 11vw;
+    top: -18vw;
+}
+#content_1 h2 {
+    margin: 0;
+    font-size: 3.5vw;
+    font-family: "Poppins", sans-serif;
+    color: rgb(0,0,0);
+    line-height: 2;
+    text-align: center;
+    font-weight: bold;
+}
+#content_1 h3 {
+    margin: 0;
+    font-size: 3vw;
+    font-family: "Poppins", sans-serif;
+    color: rgb(0,0,0);
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 1vw;
+    font-weight: 400;
+}
+#content_1 p {
+    margin: 0;
+    font-size: 2.8vw;
+    font-family: "Poppins", sans-serif;
+    color: rgb(0, 0, 0);
+    line-height: 1.5;
+    text-align: justify;
+}
+#content_2 {
+    text-align: justify;
+    width: 72%;
+    margin: auto;
+}
+#content_2 p{
+    margin: 0;
+    font-size: 2.8vw;
+    font-family: "Poppins", sans-serif;
+    color: rgb(0, 0, 0);
+    line-height: 1.5;
+    text-align: justify;
+}
 }

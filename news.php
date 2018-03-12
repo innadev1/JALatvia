@@ -11,11 +11,11 @@
 	<body>
 	
 	<div class="capture_aktualitates">
-		<h2>SMU Light Up Eiropas finālā izpelnās<br> Beļģijas karaļa uzmanību</h2>
-		<p>Briselē, Beļģijā, ar svinīgu apbalvošanas ceremoniju ir beidzies starptautiskā <br>
-		biznesa izglītības organizāciju tīkla Junior Achievement Europe skolēnu mācību <br>
-		uzņēmumu (SMU) Eiropas fināls, kurā par labāko uzņēmumu tika atzīts Festera no <br>
-		Igaunijas. Latviju šajā konkursā 37 valstu konkurencē godam pārstāvēja SMU Light <br>
+		<h2>SMU Light Up Eiropas finālā izpelnās Beļģijas karaļa uzmanību</h2>
+		<p>Briselē, Beļģijā, ar svinīgu apbalvošanas ceremoniju ir beidzies starptautiskā
+		biznesa izglītības organizāciju tīkla Junior Achievement Europe skolēnu mācību
+		uzņēmumu (SMU) Eiropas fināls, kurā par labāko uzņēmumu tika atzīts Festera no
+		Igaunijas. Latviju šajā konkursā 37 valstu konkurencē godam pārstāvēja SMU Light
 		</p>
 	</div>
 	
@@ -35,7 +35,7 @@
 		<div id="quote">
 			<div class="quote">
 				<h2>Claudio A. Rivera</h2>
-				<p><span>RTU Rīgas Biznesa skolas bakalaura programmas vadītājs</span></p>	
+				<p class="quote-p"><span>RTU Rīgas Biznesa skolas bakalaura programmas vadītājs</span></p>	
 			
 				<p>
 					“Mūsdienu bizness nozīmē būt konkurētspējīgam pasaules mērogā. Nav 

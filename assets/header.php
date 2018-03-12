@@ -22,7 +22,8 @@ $(document).ready(function(){
 });
 </script>
 <script>
-	$(function() {
+$(document).ready(function(){
+	if ($('body').width() >= 900) {
 	
 		$(window).on('load scroll',function(){ 
 		if ($(this).scrollTop() >= $('#banner').height()) {
@@ -33,7 +34,8 @@ $(document).ready(function(){
 		}
 		});
 		
-	});
+}
+});
 </script>
 
 <div id="banner"></div>
@@ -78,19 +80,25 @@ $(document).ready(function(){
 		<li class="collapsed"><a>TITAN <span class="label"></span></a></li>
 			<ul class="sub">
 				<li><a href="titan.php">Par TITAN</a></li>
-				<li><a href="titan-piesakies.php">- Piesakies</li>
+				<li><a href="titan-piesakies.php">Piesakies</li>
 			</ul>
 		<li><a href="konkurss.php">Biznesa pasaku konkurss</a></li>
 		<li><a href="mana_vardnicina.php">Mana vārdnicīņa</a></li>
 		<li><a href="enu_diena.php">Ēnu diena</a></li>
-		<li><a href="lideru_programma.php">Līderu programma</a></li>
+		<li class="collapsed"><a>Līderu programma <span class="label"></span></a></li>
+			<ul class="sub">
+				<li><a href="lideru_programma.php">Līderu programma</a></li>
+				<li><a href="lideru_programma_dalibnieki.php">Dalībnieki</li>
+				<li><a href="lideru_programma_mentori.php">Mentori un kouči</li>
+			</ul>
 		<li><a href="projekti.php">Starptutiskie projekti</a></li>
-		<li><a href="labakais.php">- Gada labākais ekonomikā</a></li>
-		<li><a href="partners.php">- Partneri</a></li>
+		<li><a href="labakais.php">Gada labākais ekonomikā</a></li>
+		<li><a href="partneri.php">Partneri</a></li>
 		<li><a href="veiksmes_stasti.php">Veiksmes stāsti</a></li>
 		<li><a href="foto.php">Foto</a></li>
-		<li><a href="publications.php">- Publikācijas</a></li>
-		<li><a href="about.php">- Par mums</a></li>
+		<li><a href="sertifikats.php">Ja Latvija sertifikāts</a></li>
+		<!--<li><a href="publications.php">? Publikācijas</a></li>-->
+		<li><a href="index.php#footer">Par mums</a></li>
 	</ul>
 <script>
 $(document).ready(function() {

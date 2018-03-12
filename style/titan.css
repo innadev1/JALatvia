@@ -72,6 +72,12 @@ body{
     width: 60%;
     margin: auto;
 }
+#main_info_piesakies{
+	padding-top: 4vw;
+    padding-bottom: 2vw;
+    width: 70%;
+    margin: auto;
+}
 #content_1 p{
 	margin: 0;
     font-size: 0.9vw;
@@ -228,6 +234,88 @@ body{
 }
 .addt span{
 	color: #2cc654;
+}
+
+.two-columns{
+	display: -webkit-flex;
+    display: flex;
+	width: 100%;
+}
+.two-columns p{
+	margin: 0;
+    font-size: 1vw;
+    font-family: "Poppins", sans-serif;
+    color: rgb(0,0,0);
+    line-height: 1.5;
+    text-align: left;
+	margin-bottom: 1vw
+}
+.two-columns p a{
+	color: #2cc654;
+	font-size: 1vw;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.5;
+}
+.two-columns li{
+	color: rgb(0,0,0);
+	font-size: 1vw;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.5;
+	padding-bottom: 0;
+    cursor: unset;
+	list-style-type: disc;
+	list-style-position: inside
+}
+.two-columns div{
+	padding: 1vw
+}
+.two-columns div:first-child{
+	width: 41%;
+}
+.two-columns div:last-child{
+	width: 59%;
+}
+.two-columns h3{
+	margin: 0;
+	font-size: 1.3vw;
+	margin-bottom: 1vw
+}
+.two-columns h3 a{
+	color: #2cc654;
+	margin: 0;
+	font-size: 1.3vw;
+	margin-bottom: 1vw
+}
+.two-columns table{
+	width: 100%;
+    padding: 0.8vw;
+    border: 1px solid rgba(0,0,0,0.1);
+    margin-bottom: 1vw;
+    border-radius: 0.5vw;
+}
+.two-columns tr{
+	width: 100%;
+}
+.two-columns th{}
+.two-columns td{
+	padding:0.3vw
+}
+.two-columns h5{
+	margin: 0;
+    font-size: 0.8vw;
+    font-family: "Poppins", sans-serif;
+    color: rgb(0,0,0);
+    line-height: 1.5;
+    text-align: center;
+}
+.two-columns h2{
+	margin: 0;
+    font-size: 0.9vw;
+    font-family: "Poppins", sans-serif;
+    color: rgba(0,0,0, 0.4);
+    line-height: 1.5;
+    text-align: left;
+	border-bottom: 1px solid rgba(0,0,0,0.1);
 }
 @media screen and (max-width: 900px){
 }

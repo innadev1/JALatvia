@@ -56,7 +56,7 @@
 		<div id="quote">
 			<div class="quote">
 				<h2>Andris Priekulis</h2>
-				<p><span>Rīgas 3. ģimnāzijas direktors</span></p>	
+				<p class="quote-p"><span>Rīgas 3. ģimnāzijas direktors</span></p>	
 			
 				<p>
 					„Vēlreiz pārliecinājos, cik svarīgi vienlaikus ar citām kompetencēm skolēnos attīstīt uzņēmējspējas. Man ir ārkārtīgi liels gandarījums redzēt, ka latviešu dalībnieki it nemaz neatpaliek no Eiropas līmeņa un kvalitātes ziņā pat ierindojas tā augšgalā! JA Latvija ir ļoti patīkams skolas partneris – biedrībai ir instrumenti, resursi, cilvēkresursi un sadarbības partneri, kas sniedz skolēnu izglītībai tādu pievienoto vērtību, ko pati skola nekad nevarēs nodrošināt!
