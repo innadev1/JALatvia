@@ -372,4 +372,18 @@ body{
     line-height: 1.5;
     text-align: justify;
 }
+#content_3 {
+    margin-top: 10vw;
+    margin-bottom: 0;
+}
+#content_3 h1 {
+    font-size: 3vw;
+    margin-right: 4vw;
+}
+#content_3 p {
+    font-size: 3vw;
+    line-height: 1.5;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
 }

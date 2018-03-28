@@ -150,7 +150,6 @@ body{
     display: flex;
     width: 50%;
 	height: 10vw;
-	cursor: pointer;
 	align-items: center;
 }
 .wrapped div, .wrapped1 div{
@@ -234,7 +233,6 @@ body{
     display: flex;
     width: 33.33333%;
 	height: 13vw;
-	cursor: pointer;
 	align-items: center;
 }
 .logos-1{
@@ -386,6 +384,63 @@ body{
 .three .wrapped-reversed{
 	width: 30%;
 }
+
+#about-table{
+	position: absolute;
+	right: 12vw;
+	width: 25vw;
+}
+.content_3{
+	width: 100%;
+    background-color: rgba(255,255,255,0.1);
+    margin: auto;
+    text-align: center;
+    border-radius: 0.5vw;
+    border: 1px solid rgba(255,255,255,0.3);
+	margin-bottom: 0.3vw;
+}
+.content_3 p{
+	margin: 0;
+    font-size: 0.8vw;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    line-height: 1.5vw;
+	font-weight: 500;
+}
+.content_3 h1{
+	margin: 0;
+    font-size: 0.8vw;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    line-height: 1.5vw;
+	font-weight: bold;
+}
+.content_3 span{
+	color: white;
+}
+.content_3 tr{
+    height: 2vw;
+    box-shadow: 0 0 30px rgba(0,0,0,0.1);
+}
+.first_header{
+    text-align: left;
+    width: 35%;
+    padding-left: 1vw;
+}
+.second_header p span{
+	font-size: 0.5vw;
+}
+.second_header p{
+	text-align: left;
+	padding-left: 1vw;
+}
+.content_3 img{
+	width: 8vw;
+    margin-right: 1vw;
+}
+
+
+
 @media screen and (max-width: 900px){
 .capture_dalibskolas {
     position: absolute;

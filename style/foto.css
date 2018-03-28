@@ -136,4 +136,55 @@ body{
 #w11{background-image: url(../img/foto/11.jpg);}
 #w12{background-image: url(../img/foto/12.jpg);}
 @media screen and (max-width: 900px){
+.capture_foto {
+    position: absolute;
+    width: 77%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    top: 50vw;
+}
+.capture_foto h5 {
+    text-align: center;
+    font-size: 6.5vw;
+    line-height: 1.3;
+    padding-bottom: 2vw;
+}
+.capture_foto h2 {
+    text-align: center;
+    font-size: 5vw;
+    line-height: 1.3;
+    padding-bottom: 3vw;
+}
+.capture_foto p {
+    font-size: 3.2vw;
+    line-height: 1.2;
+    text-align: center !important;
+}
+#partners{
+	display:none !important
+}
+#main_foto {
+    padding-top: 1vw;
+    padding-bottom: 0vw;
+    width: 100%;
+}
+#main_foto div {
+    width: 100%;
+    height: 60vw;
+	margin: 0;
+    margin-bottom: 1vw;
+}
+#main_foto h1 {
+    font-size: 5vw;
+    line-height: 1.5;
+    font-weight: 600;
+    width: 70%;
+}
+#main_foto p {
+    font-size: 4vw;
+}
+
 }

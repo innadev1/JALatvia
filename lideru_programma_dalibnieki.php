@@ -1,15 +1,15 @@
 <html>
     <head>     
 		<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="style/mentori-dalibnieki.css">
 		<link rel="stylesheet" type="text/css" href="style/style.css">
+		<link rel="stylesheet" type="text/css" href="style/mentori-dalibnieki.css">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />  
         <title></title>
     </head>
 
 	<body>
 		
-		<div class="capture_top dalibnieki">
+		<div class="capture_top dalibnieki capture-top">
 			<h2>Dalībnieki</h2>
 		</div>
 

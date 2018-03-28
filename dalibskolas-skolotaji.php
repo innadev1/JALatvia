@@ -1,15 +1,15 @@
 <html>
     <head>     
 		<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="style/dalibskolas.css">
 		<link rel="stylesheet" type="text/css" href="style/style.css">
+		<link rel="stylesheet" type="text/css" href="style/dalibskolas.css">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />  
         <title>Dalībskolas</title>
     </head>
 
 	<body>
 		
-		<div class="capture_dalibskolas">
+		<div class="capture_dalibskolas capture-top">
 			<h2>JA Latvija Skolotāju klubs</h2>
 			<p>
 				Skolotāju Klubs ir izveidots ilgstošai darbībai ar nolūku veicināt ekonomisko domu un ilgtermiņa tautsaimniecības attīstību Latvijā. Skolotāju Klubs sekmēs jauniešu izpratni par uzņēmējspēju nozīmi, sabiedrisko norišu jautājumiem, rosinās jauniešus savu darbību veltīt šo jautājumu popularizēšanai tuvākajā apkārtnē, veidos jauniešus par sabiedriski darbīgiem savas tautas, valsts un sabiedrības locekļiem. Par Skolotāju kluba prezidentu ieceļ skolotāju, kurš mācību gada noslēgumā tiek nominēts par ”Gada labāko skolotāju ekonomikā”! Skolotāju kluba prezidentu ieceļ uz 1 gadu.

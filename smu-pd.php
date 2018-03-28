@@ -1,14 +1,14 @@
 <html>
     <head>     
 		<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="style/smu.css">
 		<link rel="stylesheet" type="text/css" href="style/style.css">
+		<link rel="stylesheet" type="text/css" href="style/smu.css">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />  
         <title>SMU</title>
     </head>
 
 	<body>
-		<div class="capture_smu">
+		<div class="capture_smu capture-top">
 			<h2>Kā dibināt savu Skolēnu mācību<br>uzņēmumu? <span style="color:#2cc654">4.-9.kl.</span></h2>
 			<div id="top-bt">
 				<a href="smu-pd.php"><button id="main-button-on-top">Dibināšana</button></a>

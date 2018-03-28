@@ -1,15 +1,15 @@
 <html>
     <head>     
 		<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="style/partneri.css">
 		<link rel="stylesheet" type="text/css" href="style/style.css">
+		<link rel="stylesheet" type="text/css" href="style/partneri.css">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />  
         <title>Partneri</title>
     </head>
 
 	<body>
 		
-		<div class="capture_partners">
+		<div class="capture_partners capture-top">
 			<h2>Pateicība mūsu partneriem<br> un atbalstītājiem</h2>
 			<p>
 				Prakstiskās biznesa izglītības biedrības JA Latvija darbība nebūtu iespējama bez partneru atbalsta. Paldies liels ikvienam partnerim par laika, zināšanu un finansiālo ieguldījumu mūsu kopīgā mērķa  sasniegšanā - veicināt uz;ņēmīgas, pārmaiņas  gatavas un nākotni izaicinošanas paaudzes veidošanos, kas uzņemsies atbildību par Latvijas attīstību!
@@ -17,6 +17,12 @@
 		</div>
 
 		<?php include 'assets/header.php'; ?>
+		
+		<div class="capture_mobile">
+			<p>
+				Prakstiskās biznesa izglītības biedrības JA Latvija darbība nebūtu iespējama bez partneru atbalsta. Paldies liels ikvienam partnerim par laika, zināšanu un finansiālo ieguldījumu mūsu kopīgā mērķa  sasniegšanā - veicināt uz;ņēmīgas, pārmaiņas  gatavas un nākotni izaicinošanas paaudzes veidošanos, kas uzņemsies atbildību par Latvijas attīstību!
+			</p>
+		</div>
 		
 		<div class="partners_content">
 			<div class="flex-partneri">

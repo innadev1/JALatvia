@@ -1,14 +1,14 @@
 <html>
     <head>     
 		<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="style/smu.css">
 		<link rel="stylesheet" type="text/css" href="style/style.css">
+		<link rel="stylesheet" type="text/css" href="style/smu.css">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />  
         <title>SMU</title>
     </head>
 
 	<body>
-		<div class="capture_smu">
+		<div class="capture_smu capture-top">
 			<h2>Gada Skolēnu mācību<br>uzņēmumu konsultants</h2>
 			<p>Skolēnu mācību uzņēmumu (SMU) konsultē un atbalsta skolotāji -  SMU konsultanti. Darbojoties šajā mācību programmā, skolēni iepazīstas un izpēta uzņēmējdarbības vadības pasauli un apgūst visu uzņēmējdarbības ciklu, sākot no idejas radīšanas līdz tās īstenošanai. SMU darbojas no 4 līdz 12 mēnešiem mācību gada laikā. Visā šajā periodā skolēniem līdzās ir SMU konsultants.</p>
 			<div id="top-bt">

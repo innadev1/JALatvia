@@ -1,15 +1,15 @@
 <html>
     <head>     
 		<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="style/dalibskolas.css">
 		<link rel="stylesheet" type="text/css" href="style/style.css">
+		<link rel="stylesheet" type="text/css" href="style/dalibskolas.css">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />  
         <title>Dalībskolas</title>
     </head>
 
 	<body id="dalibskolas-skolas">
 		
-		<div class="capture_dalibskolas">
+		<div class="capture_dalibskolas capture-top">
 			<h2>Par uzņēmēju kļūst, <br> nevis piedzimst</h2>
 
 			<p>JA Latvija aicina - kļūsti par JA Latvija dalībskolas krustvecāku<br> un veidosim jauno uzņēmēju paaudzi kopā!</p>

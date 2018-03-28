@@ -1,15 +1,15 @@
 <html>
     <head>     
 		<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="style/dalibskolas.css">
 		<link rel="stylesheet" type="text/css" href="style/style.css">
+		<link rel="stylesheet" type="text/css" href="style/dalibskolas.css">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />  
         <title>Dalībskolas</title>
     </head>
 
 	<body>
 		
-		<div class="capture_dalibskolas">
+		<div class="capture_dalibskolas capture-top">
 			<h2>Tieši Tev ir iespēja kļūt par JA Latvija Brīvprātīgo kluba biedru!</h2>
 
 			<p>

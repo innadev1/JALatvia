@@ -1,15 +1,15 @@
 <html>
     <head>     
 		<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="style/mentori-dalibnieki.css">
 		<link rel="stylesheet" type="text/css" href="style/style.css">
+		<link rel="stylesheet" type="text/css" href="style/mentori-dalibnieki.css">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />  
         <title></title>
     </head>
 
 	<body>
 		
-		<div class="capture_top">
+		<div class="capture_top capture-top">
 			<h2>Mentori un kouči</h2>
 			<p>
 				Līderu programmas laikā katrs dalībnieks strādā un tiekas ar savu personības izaugsmes kouču. Vairāku koučsesiju laikā koučs palīdz noturēt jaunā līdera fokusu uz projekta izstrādi, patstāvīgi formulēt mērķus un uzdevumus to sasniegšanai un realizēt tos. Profesionāls koučings - tā ir nepārtraukta sadarbība, kura palīdz klientam sasniegt reālus rezultātus savā personīgajā un profesionālajā dzīvē. Ar koučinga procesa starpniecību klients padziļina savas zināšanas, uzlabo savu lietderības koeficientu un paaugstina savas dzīves kvalitāti.

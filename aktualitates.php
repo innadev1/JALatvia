@@ -1,8 +1,8 @@
 <html>
     <head>     
 		<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="style/aktualitates.css">
 		<link rel="stylesheet" type="text/css" href="style/style.css">
+		<link rel="stylesheet" type="text/css" href="style/aktualitates.css">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />  
         <title>Aktualitates</title>
 		<script type="text/javascript" src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
@@ -10,7 +10,7 @@
 
 	<body>
 	
-	<div class="capture_aktualitates">
+	<div class="capture_aktualitates capture-top">
 		<h2>SMU Light Up Eiropas finālā izpelnās Beļģijas karaļa uzmanību</h2>
 		<p>Briselē, Beļģijā, ar svinīgu apbalvošanas ceremoniju ir beidzies starptautiskā
 		biznesa izglītības organizāciju tīkla Junior Achievement Europe skolēnu mācību

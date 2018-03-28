@@ -1,14 +1,14 @@
 <html>
     <head>     
 		<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="style/smu.css">
 		<link rel="stylesheet" type="text/css" href="style/style.css">
+		<link rel="stylesheet" type="text/css" href="style/smu.css">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />  
         <title>SMU</title>
     </head>
 
 	<body>
-		<div class="capture_smu">
+		<div class="capture_smu capture-top">
 			<h2>Skolēnu mācību uzņēmums</h2>
 			<p>Skolēnu mācību uzņēmums (SMU) ir skolēnu veidots un vadīts mācību uzņēmums, kura darbībai piemīt izglītojošs raksturs. SMU mācību nolūkos pilda īsta uzņēmuma funkcijas un darbojas reālā vidē – skolēni ražo un pārdod preces vai pakalpojumus. SMU nav juridiska statusa – tos pārstāv Junior Achievement  Latvija un skola. SMU konsultē un atbalsta SMU konsultanti/biznesa konsultanti.</p>
 		</div>
@@ -55,10 +55,10 @@
 				<p>SMU darbības laikā ir iespējams piedalīties gadatirgos un festivālos, kur SMU būs iespēja prezentēt un pārdot savu produktu, skolēniem - iepazīties ar jauniem draugiem. Ja SMU būs iekļuvis labāko Latvijas SMU vidū, tad skolēniem būs iespēja piedalīties Latvijas SMU finālā un nokļūt Eiropas SMU finālā. Tad, kad mācību gads tuvosies beigām, uzņēmums būs jālikvidē. Tas nozīmē, ka uzņēmuma darbības laiks būs beidzies. Tad SMU ir jāsagatavo likvidācijas dokumenti, kas sastāv no atskaitēm par SMU darbību.</p>
 			</div>
 			
-			<div id="content_4">
+			<!--<div id="content_4">
 				<div><img src="img/logos/enu_diena/Asset_13.svg"></div>
 				<div><a><p>Skolēnu mācību uzņēmumu veidošanu kā efektīvu mācību metodi uzņēmējdarbības izglītībā Latvijā atzīst Latvijas Republikas Izglītības un zinātnes ministrija.</p></a></div>
-			</div>
+			</div>-->
 			
 			<h6>Veidojot SMU, skolēni iegūst;</h6>
 			

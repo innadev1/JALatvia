@@ -1,15 +1,15 @@
 <html>
     <head>     
 		<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="style/konkurss.css">
 		<link rel="stylesheet" type="text/css" href="style/style.css">
+		<link rel="stylesheet" type="text/css" href="style/konkurss.css">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />  
         <title>Biznesa pasaciņa</title>
     </head>
 
 	<body>
 	
-	<div class="capture_konkurss">
+	<div class="capture_konkurss capture-top">
 		<h5>Konkurss <b>Biznesa pasaka</b></h5>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 		<div id="top-bt">

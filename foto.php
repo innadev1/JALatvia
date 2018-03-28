@@ -1,15 +1,15 @@
 <html>
     <head>     
 		<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="style/foto.css">
 		<link rel="stylesheet" type="text/css" href="style/style.css">
+		<link rel="stylesheet" type="text/css" href="style/foto.css">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />  
         <title>Foto</title>
     </head>
 
 	<body>
 	
-	<div class="capture_foto">
+	<div class="capture_foto capture-top">
 		<h5>#UzdrīkstiesUzvarēt 2017</h5>
 		<h2>uzņēmējdarbības iedvesmas konference</h2>
 		<p>1127 photos  |  600 views</p>

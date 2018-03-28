@@ -1,14 +1,14 @@
 <html>
     <head>     
 		<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="style/lideru_programma.css">
 		<link rel="stylesheet" type="text/css" href="style/style.css">
+		<link rel="stylesheet" type="text/css" href="style/lideru_programma.css">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />  
         <title>Līderu programma</title>
     </head>
 
 	<body>
-		<div class="capture_programma">
+		<div class="capture_programma capture-top">
 			<h2>Līderu programma</h2>
 			<p>
 				Apzinoties spēcīgu līderu trūkumu Latvijā, Junior Achievement Latvija uzsāka īstenot unikālu Līderu programmu 16 - 20 gadīgiem jauniešiem, kuras mērķis ir veidot jauno līderu paaudzi Latvijas konkurētspējas palielināšanai.  Sadarbībā ar Līderu programmas mentoriem, Latvijā pazīstamiem uzņēmējiem un augsta līmeņa vadītājiem, Rīgas Koučinga skolas treneriem un koučiem jaunieši programmas ietvaros īsteno savu projekta ideju, kas dod kādu labumu sabiedrībai. Viena mācību gada laikā programmas dalībnieki piedalās meistarklasēs, kurās apgūst projektu vadību, saviesīgu sarunu mākslu, mediju treniņu, uzņēmējdarbības veidošanas pamatus un diskutē ar Latvijā veiksmīgām personībām, smeļoties jaunu, vēl nebijušu pieredzi.
@@ -18,6 +18,12 @@
 		<?php include 'assets/header.php'; ?>
 
 			<div id="main_programma">
+			
+				<div class="capture_programma_mobile">
+					<p>
+						Apzinoties spēcīgu līderu trūkumu Latvijā, Junior Achievement Latvija uzsāka īstenot unikālu Līderu programmu 16 - 20 gadīgiem jauniešiem, kuras mērķis ir veidot jauno līderu paaudzi Latvijas konkurētspējas palielināšanai.  Sadarbībā ar Līderu programmas mentoriem, Latvijā pazīstamiem uzņēmējiem un augsta līmeņa vadītājiem, Rīgas Koučinga skolas treneriem un koučiem jaunieši programmas ietvaros īsteno savu projekta ideju, kas dod kādu labumu sabiedrībai. Viena mācību gada laikā programmas dalībnieki piedalās meistarklasēs, kurās apgūst projektu vadību, saviesīgu sarunu mākslu, mediju treniņu, uzņēmējdarbības veidošanas pamatus un diskutē ar Latvijā veiksmīgām personībām, smeļoties jaunu, vēl nebijušu pieredzi.
+					</p>
+				</div>
 			
 				<div class="flex-prog">
 				
@@ -59,14 +65,14 @@
 					<div class="one-flex">
 						<div><img src="img/logos/45.png"></div>
 						<div>
-							<p>Personības izaugsmes3.meistarklase- vasaras nometne</p>
+							<p>Personības izaugsmes 3.meistarklase- vasaras nometne</p>
 						</div>
 					</div>
 					
 					<div class="one-flex">
 						<div><img src="img/logos/48.png"></div>
 						<div>
-							<p>Personības izaugsmes4.meistarklase</p>
+							<p>Personības izaugsmes 4.meistarklase</p>
 						</div>
 					</div>
 					

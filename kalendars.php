@@ -1,8 +1,8 @@
 <html>
     <head>     
 		<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="style/kalendars.css">
 		<link rel="stylesheet" type="text/css" href="style/style.css">
+		<link rel="stylesheet" type="text/css" href="style/kalendars.css">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />  
         <title>Kalendars</title>
 		<script type="text/javascript" src="http://code.jquery.com/jquery-3.2.1.min.js"></script>

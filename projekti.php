@@ -1,14 +1,14 @@
 <html>
     <head>     
 		<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="style/projekti.css">
 		<link rel="stylesheet" type="text/css" href="style/style.css">
+		<link rel="stylesheet" type="text/css" href="style/projekti.css">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />  
         <title>Starptautiskie projekti</title>
     </head>
 
 	<body>
-		<div class="capture_projekti">
+		<div class="capture_projekti capture-top">
 		<h2>Starptautiskie projekti</h2>
 		<p>
 			JA Latvija piedalās dažādos starptautiskos projektus, lai sniegtu savu dalībskolu un partneraugstskolu vadības pārstāvjiem, mācībspēkiem, studentiem un skolēniem iespēju iegūt starptautisku pieredzi, plašākas zināšanas un jaunas prasmes un kopīgi strādātu pie uzņēmējdarbības izglītības ietekmes uz jauniešu nākotnes prasmēm, konkurētspēju un izglītību kopumā. Zemāk uzskaitīti projekti, kuros iesaistīta JA Latvija. 
@@ -20,6 +20,12 @@
 		</div>
 		<?php include 'assets/header.php'; ?>
 
+		<div class="capture_mobile">
+			<p>
+			JA Latvija piedalās dažādos starptautiskos projektus, lai sniegtu savu dalībskolu un partneraugstskolu vadības pārstāvjiem, mācībspēkiem, studentiem un skolēniem iespēju iegūt starptautisku pieredzi, plašākas zināšanas un jaunas prasmes un kopīgi strādātu pie uzņēmējdarbības izglītības ietekmes uz jauniešu nākotnes prasmēm, konkurētspēju un izglītību kopumā. Zemāk uzskaitīti projekti, kuros iesaistīta JA Latvija. 
+			</p>
+		</div>
+	
 		<div id="main_projekti">
 			<div class="wrap">
 				<div class="wrapped">

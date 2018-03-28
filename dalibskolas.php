@@ -1,15 +1,15 @@
 <html>
     <head>     
 		<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="style/dalibskolas.css">
 		<link rel="stylesheet" type="text/css" href="style/style.css">
+		<link rel="stylesheet" type="text/css" href="style/dalibskolas.css">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />  
         <title>Dalībskolas</title>
     </head>
 
 	<body>
 		
-		<div class="capture_dalibskolas">
+		<div class="capture_dalibskolas capture-top">
 			<h2>Kļūsti par JA Latvija dalībskolu!</h2>
 
 			<div id="top-bt">
@@ -67,6 +67,37 @@
 				<div class="green-border-3"></div>
 				<div class="el"><img src="img/element.png"></div>
 			</div>
+			
+			<div id="about-table">
+				<table class="content_3">
+					<tr>
+						<th class="first_header"><h1>Līguma slēgšana</h1></th>
+						<th><h1>līdz 01.11.2017</h1></th>
+						<th><h1>pēc 01.11.2017</h1></th>
+					</tr>
+					<tr>
+						<th class="first_header"><h1>Pamatskola</h1></th>
+						<td><p>125.00 EUR + PVN</p></td>
+						<td><p>255.00 EUR + PVN</p></td>
+					</tr>
+					<tr>
+						<th class="first_header"><h1>Vidusskola,<br>profesionālā skola</h1></th>
+						<td><p>240.00 EUR + PVN</p></td>
+						<td><p>270.00 EUR + PVN</p></td>
+					</tr>
+				</table>
+				
+				<table class="content_3">
+					<tr>
+						<th class="second_header">
+							<p><span>Līguma slēgšana jaunajam mācību gadam notiek</span></p>
+							<p>no 1. augusta līdz 1. decembrim!</p>
+						</th>
+						<th><img src="img/logos/cal.png"></th>
+					</tr>
+				</table>
+			</div>
+			
 		</div>
 		
 		<div class="dalibskolas_content-1">

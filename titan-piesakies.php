@@ -1,14 +1,14 @@
 <html>
     <head>     
 		<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="style/titan.css">
 		<link rel="stylesheet" type="text/css" href="style/style.css">
+		<link rel="stylesheet" type="text/css" href="style/titan.css">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />  
         <title>Titan</title>
     </head>
 
 	<body>
-		<div class="capture_titan">
+		<div class="capture_titan capture-top">
 			<h2>TITAN Reģionālā čempionāta<br>organizēšana</h2>
 			<p>
 				Skolas var rīkot reģionālos čempionātus laika posmā no novembra līdz decembrim. Reģionālo čempionātu rīko sadarbības skolu koordinatori. Par čempionāta norises laiku jāpaziņo JA Latvija, aizpildot pieteikuma formu.

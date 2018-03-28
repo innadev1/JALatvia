@@ -130,4 +130,30 @@
 #w11{background-image: url(../img/foto/11.jpg);}
 #w12{background-image: url(../img/foto/12.jpg);}
 @media screen and (max-width: 900px){
+.capture_stasti p {
+    display: none;
+}
+#partners{
+	display:none !important
+}
+#main_veiksmes_stasti {
+    padding-top: 1vw;
+    padding-bottom: 0vw;
+    width: 100%;
+}
+#main_veiksmes_stasti div {
+    width: 100%;
+    height: 60vw;
+	margin: 0;
+    margin-bottom: 1vw;
+}
+#main_veiksmes_stasti h1 {
+    font-size: 5vw;
+    line-height: 1.5;
+    font-weight: 600;
+    width: 70%;
+}
+#main_veiksmes_stasti p {
+    font-size: 4vw;
+}
 }

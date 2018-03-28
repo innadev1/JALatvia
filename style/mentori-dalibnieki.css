@@ -260,4 +260,63 @@ body{
 	width:100%
 }
 @media screen and (max-width: 900px){
+.capture_top {
+    position: absolute;
+    width: 77%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    top: 70vw;
+}
+.capture_top h2 {
+    text-align: center;
+    font-size: 5vw;
+    line-height: 1.3;
+    padding-bottom: 3vw;
+}
+#main_info {
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+    width: 80%;
+}
+.mentori {
+    width: 100%;
+    flex-direction: column;
+}
+.mentori div {
+    width: 100%;
+    margin-bottom: 5vw;
+}
+.mentori h2 {
+    font-size: 4vw;
+    margin: 2vw;
+}
+.about-mentors {
+    flex-direction: column;
+}
+.col-1, .col-2 {
+    width: 100%;
+    flex-direction: column;
+}
+.col-1 img {
+    width: 40vw;
+}
+.col-1 p {
+    font-size: 3.5vw !important;
+    line-height: 1.5 !important;
+    margin-bottom: 5vw !important;
+}
+.col-2 h3 {
+    color: black;
+    font-size: 4vw;
+    margin-bottom: 5vw;
+}
+.col-3 {
+    width: 100%;
+}
+.col-3 div {
+    margin: 3vw;
+}
 }

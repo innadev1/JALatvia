@@ -1,15 +1,15 @@
 <html>
     <head>     
 		<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="style/sertifikats.css">
 		<link rel="stylesheet" type="text/css" href="style/style.css">
+		<link rel="stylesheet" type="text/css" href="style/sertifikats.css">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />  
         <title>JA Latvija sertifikāts</title>
     </head>
 
 	<body>
 		
-		<div class="capture_sertifikats">
+		<div class="capture_sertifikats capture-top">
 			<h2>JA Latvija sertifikāts</h2>
 
 			<div id="top-bt">

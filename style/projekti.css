@@ -143,4 +143,59 @@ body {
 	width: 60%;
 }
 @media screen and (max-width: 900px){
+.capture_projekti p{
+	display: none;
+}
+.capture_mobile {
+    display: block;
+	padding-top: 10vw;
+    padding-bottom: 10vw;
+	width: 70%;
+	margin: auto;
+}
+.capture_mobile p {
+    font-family: "Poppins", sans-serif;
+    color: rgb(0,0,0);
+    font-size: 3.2vw !important;
+    line-height: 1.5;
+    text-align: justify;
+    margin: 0;
+}
+.capture_vardnicina p {
+    display: none;
+}
+#partners{
+	display: none !important
+}
+.wrapped {
+    flex-direction: column;
+}
+.wrapped div{
+	width: 100% !important;
+}
+.wrapped img {
+    width: 60%;
+    padding: 5vw;
+    margin: auto;
+}
+.wrapped h1 {
+    font-size: 4vw;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 3vw;
+}
+.wrapped p {
+    font-size: 3vw;
+    color: black;
+    line-height: 1.5;
+    text-align: justify;
+}
+.project-bt button {
+    font-size: 4vw;
+    padding: 2vw;
+    width: fit-content;
+    margin: auto;
+    margin-top: 5vw;
+}
 }

@@ -1,14 +1,14 @@
 <html>
     <head>     
 		<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="style/titan.css">
 		<link rel="stylesheet" type="text/css" href="style/style.css">
+		<link rel="stylesheet" type="text/css" href="style/titan.css">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />  
         <title>Titan</title>
     </head>
 
 	<body>
-		<div class="capture_titan">
+		<div class="capture_titan capture-top">
 			<h2>TITAN</h2>
 			<div id="top-bt">
 				<a href=""><button id="main-button-on-top">Nolikums</button></a>
@@ -50,7 +50,7 @@
 		<div id="quote">
 			<div class="quote">
 				<h2>Claudio A.Rivera, Ph.D.</h2>
-				<p><span>RTU Rīgas Biznesa skolas bakalaura programmas direktors</span></p>	
+				<p class="quote-p"><span>RTU Rīgas Biznesa skolas bakalaura programmas direktors</span></p>	
 			
 					<p>
 					"TITAN biznesa stratēģiskā spēle ir  lieliska iespēja jauniešiem apgūt ekonomiku un biznesa vadību ar simulācijas spēles palīdzību starptautiskā atmosfērā, kā arī smelties lielisku pieredzi un paplašināt savu redzesloku. Šobrīd Latvijai vajag daudz jaunu un enerģijas pilnu uzņēmēju. TITAN – tā ir iespēja iejusties uzņēmuma vadītāja lomā un pārbaudīt sevi virtuālā uzņēmuma vadīšanā!”

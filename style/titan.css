@@ -158,7 +158,6 @@ body{
     display: flex;
     width: 50%;
 	height: auto;
-	cursor: pointer;
 	align-items: center;
 }
 .wrapped:hover{
@@ -318,4 +317,80 @@ body{
 	border-bottom: 1px solid rgba(0,0,0,0.1);
 }
 @media screen and (max-width: 900px){
+#partners{
+	display: none !important;
+}
+#main_info {
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+    width: 80%;
+}
+.wrapped {
+    width: 100%;
+    flex-direction: column;
+}
+.wrapped p {
+    font-size: 3.5vw;
+    line-height: 1.5;
+}
+.logos- {
+    width: 100%;
+    box-shadow: none;
+    height: 40vw;
+    margin-left: 0;
+}
+.logo1, .logo2 {
+    background-size: 25%;
+}
+.wrapped h2 {
+    font-size: 4vw;
+    bottom: -15vw;
+}
+.wrapped_text {
+    width: 100%;
+}
+
+#main_info_piesakies {
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+    width: 80%;
+}
+.two-columns {
+    flex-direction: column;
+}
+.two-columns div {
+    width: 100% !important;
+}
+.two-columns li {
+    font-size: 3.5vw;
+    line-height: 1.5;
+}
+.two-columns p {
+    font-size: 3.5vw !important;
+    margin-bottom: 5vw;
+}
+.two-columns p a {
+    font-size: 3.5vw;
+}
+.two-columns h3 {
+    margin: 0;
+	line-height: 3;
+    font-size: 3.5vw;
+    margin-bottom: 5vw;
+}
+.two-columns h3 a {
+    font-size: 3.5vw;
+    margin-bottom: 5vw;
+}
+.two-columns table {
+    padding: 2vw;
+    margin-bottom: 5vw;
+}
+.two-columns h2 {
+    font-size: 2.5vw;
+}
+.two-columns h5 {
+    font-size: 2.5vw;
+    text-align: left;
+}
 }

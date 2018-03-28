@@ -200,5 +200,86 @@ h6{
 #quote{
 	background-image: url(../img/2.jpg) !important;
 }
+.capture_enu_diena_mobile{
+	display: none;
+}
 @media screen and (max-width: 900px){
+.capture_enu_diena {
+    position: absolute;
+    width: 77%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    top: 70vw;
+}
+.capture_enu_diena h2 {
+    text-align: center;
+    font-size: 5vw;
+    line-height: 1.3;
+    padding-bottom: 3vw;
+}
+.capture_enu_diena p {
+    display: none
+}
+.capture_enu_diena_mobile{
+	display: block;
+	margin-bottom: 10vw;
+}
+.capture_enu_diena_mobile p{
+	font-family: "Poppins", sans-serif;
+    color: rgb(0,0,0);
+	font-size: 3.2vw;
+    line-height: 1.5;
+    text-align: justify;
+	margin: 0;
+}
+#main_info {
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+    width: 70%;
+}
+h6 {
+    margin-bottom: 10vw;
+    font-size: 4.5vw;
+}
+.c_2 {
+    width: 48%;
+    height: 30vw;
+    box-shadow: none;
+}
+.background {
+    height: 20vw;
+}
+.c_2 p {
+    font-size: 3vw;
+    line-height: 1;
+}
+#quote {
+    background-image: url(../img/mobile-2.jpg) !important;
+    padding-bottom: 50vw;
+}
+#content_3 {
+    width: 100%;
+    right: 0;
+    bottom: 0;
+}
+#content_3 tr {
+    height: 12vw;
+}
+.first_header {
+    width: 40%;
+    padding-left: 5vw;
+}
+#content_3 h1 {
+    font-size: 3.5vw;
+    line-height: 1;
+}
+#content_3 p {
+    font-size: 3vw;
+}
+
+
+#partners{display:none !important}
 }

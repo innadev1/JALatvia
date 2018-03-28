@@ -1,8 +1,8 @@
 <html>
     <head>     
 		<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="style/veiksmes_stasti.css">
 		<link rel="stylesheet" type="text/css" href="style/style.css">
+		<link rel="stylesheet" type="text/css" href="style/veiksmes_stasti.css">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />  
         <title>Veiksmes stāsti</title>
 		<script type="text/javascript" src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
@@ -18,7 +18,7 @@
 
 	<body>
 	
-	<div class="capture_stasti">
+	<div class="capture_stasti capture-top">
 		<p>01 JUN | 2017</p>
 		<h2>Nākamie Ričardi Brensoni<br> un Stīvi Džobsi</h2>
 		<p>“Šo deviņu mēnešu laikā, sākot no biznesa plāna rakstīšanas un beidzot ar uzvaru, iemācījāmies vairāk nekā visas vidusskolas laikā līdz šim. Veidojot skolēnu mācību uzņēmumu, spējām labāk izprast tirgus darbību. Iespējams, lielākā problēma, ar kuru saskārāmies, bija pieredzes trūkums. ...”

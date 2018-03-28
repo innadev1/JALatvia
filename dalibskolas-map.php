@@ -1,14 +1,14 @@
 <html>
     <head>     
 		<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="style/dalibskolas.css">
 		<link rel="stylesheet" type="text/css" href="style/style.css">
+		<link rel="stylesheet" type="text/css" href="style/dalibskolas.css">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />  
         <title>Dalībskolas</title>
     </head>
 
 	<body>
-		<div class="capture_dalibskolas">
+		<div class="capture_dalibskolas capture-top">
 			<h2>Dalībskolas <span style="font-weight:300">2016./2017.m.g.</span></h2>
 		</div>
 		<?php include 'assets/header.php'; ?>

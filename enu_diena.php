@@ -1,15 +1,15 @@
 <html>
     <head>     
 		<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="style/enu_diena.css">
 		<link rel="stylesheet" type="text/css" href="style/style.css">
+		<link rel="stylesheet" type="text/css" href="style/enu_diena.css">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />  
         <title>Ēnu diena</title>
     </head>
 
 	<body>
 		
-		<div class="capture_enu_diena">
+		<div class="capture_enu_diena capture-top">
 			<h2>Ēnu diena</h2>
 			<p>Ēnu diena ir pasaulē atpazīstams un atzīts Junior Achievement karjeras izglītības pasākums 1.-12. klašu skolēniem, kura mērķis ir iepazīstināt skolēnus ar dažādu profesiju un nozaru prasībām, lai palīdzētu jauniešiem izvēlēties profesiju un atbilstoši sagatavoties darba tirgum. Ēnu dienas laikā skolēni apmeklē kādu darba vietu un 4-6 stundu garumā vēro interesējošās profesijas pārstāvja darba ikdienu. Latvijā Ēnu diena ir JA Latvija reģistrēta preču zīme. JA Latvija 2018. gadā Ēnu dienu organizē 14. februārī jauniešiem būs iespēja satikties ar saviem potenciālajiem darba devējiem, izmantojot reģistrācijai un vakanču izvēlei lielāko karjeras izglītības biržu - portālu www.enudiena.lv.</p>
 		</div>
@@ -17,6 +17,12 @@
 		<?php include 'assets/header.php'; ?>
 		
 		<div id="main_info">	
+			
+			<div class="capture_enu_diena_mobile">
+				<p>
+					Apzinoties spēcīgu līderu trūkumu Latvijā, Junior Achievement Latvija uzsāka īstenot unikālu Līderu programmu 16 - 20 gadīgiem jauniešiem, kuras mērķis ir veidot jauno līderu paaudzi Latvijas konkurētspējas palielināšanai.  Sadarbībā ar Līderu programmas mentoriem, Latvijā pazīstamiem uzņēmējiem un augsta līmeņa vadītājiem, Rīgas Koučinga skolas treneriem un koučiem jaunieši programmas ietvaros īsteno savu projekta ideju, kas dod kādu labumu sabiedrībai. Viena mācību gada laikā programmas dalībnieki piedalās meistarklasēs, kurās apgūst projektu vadību, saviesīgu sarunu mākslu, mediju treniņu, uzņēmējdarbības veidošanas pamatus un diskutē ar Latvijā veiksmīgām personībām, smeļoties jaunu, vēl nebijušu pieredzi.
+				</p>
+			</div>
 			
 			<h6>Ēnotāju pieprasītākās nozares</h6>
 			
@@ -68,7 +74,7 @@
 		<div id="quote">
 			<div class="quote">
 				<h2>Maksims Jegorovs</h2>
-				<p><span>Accenture Latvija vadītājs</span></p>	
+				<p class="quote-p"><span>Accenture Latvija vadītājs</span></p>	
 			
 				<p>“ĒNU DIENA ir iespēja mums kā tehnoloģiju uzņēmumam uzzināt, kā uz pasauli raugās tie, kas ikdienā tehnoloģijas patērē. Mēs rīkojam arī iekšējas “ēnu dienas” saviem pāris gadu strādājušiem darbiniekiem — tajās viņi piedalās vadības augstākā līmeņa sapulcēs. Veiksmīgi uzņēmumi līdzsvaroti apvieno gados vecāku cilvēku pieredzi ar jaunāku cilvēku uzdrīkstēšanos.”</p>				
 				
