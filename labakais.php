@@ -4,18 +4,23 @@
 		<link rel="stylesheet" type="text/css" href="style/style.css">
 		<link rel="stylesheet" type="text/css" href="style/labakais.css">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />  
-        <title>Gada labākais ekonomikā 2017</title>
+        <title>Gada labākais ekonomikā</title>
     </head>
 
 	<body>
 		<div class="capture_best capture-top">
-			<h2>Gada labākais ekonomikā 2017</h2>
+			<h2>Gada labākais ekonomikā</h2>
 			<p>
 				Konkursā tiek noteikti un apbalvoti labākie JA Latvija programmu dalībnieki – pedagogi, skolu direktori un skolēni, kuri savu darbu veic pašaizliedzīgi, atbildīgi, ar augstu profesionalitāti un neizsīkstošu enerģiju, veicinot Latvijas tautsaimniecības attīstību. JA Latvija un sadarbības partneri novērtēs pedagogu darbu un īpaši pateiksies izcilām personībām, kuras iemieso pedagoga profesijas mīlestību un devušas lielu ieguldījumu mērķtiecīgas, zinošas Latvijas sabiedrības veidošanā.
 			</p>
 		</div>
 		<?php include 'assets/header.php'; ?>
-
+		<div class="capture_labakais_mobile">
+			<p>
+				Konkursā tiek noteikti un apbalvoti labākie JA Latvija programmu dalībnieki – pedagogi, skolu direktori un skolēni, kuri savu darbu veic pašaizliedzīgi, atbildīgi, ar augstu profesionalitāti un neizsīkstošu enerģiju, veicinot Latvijas tautsaimniecības attīstību. JA Latvija un sadarbības partneri novērtēs pedagogu darbu un īpaši pateiksies izcilām personībām, kuras iemieso pedagoga profesijas mīlestību un devušas lielu ieguldījumu mērķtiecīgas, zinošas Latvijas sabiedrības veidošanā.
+			</p>
+		</div>
+		
 		<div id="main_info_best">
 		
 			<p>

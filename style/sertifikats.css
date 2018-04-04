@@ -191,4 +191,90 @@ body{
     bottom: 2vw;
 }
 @media screen and (max-width: 900px){
+.col-1, .col-2, .col-3 {
+    flex-direction: column;
+}
+.col-1 div {
+    width: 100%;
+}
+#main_info p {
+    margin-bottom: 5vw;
+    font-family: "Poppins", sans-serif;
+    color: rgb(0,0,0);
+    font-size: 3.2vw;
+    line-height: 1.5;
+    text-align: justify !important;
+    margin: 0;
+}
+.part {
+    box-shadow: none;
+    height: 30vw;
+    padding: 0vw !important;
+    margin: 1vw;
+}
+.titan,
+.e_diena,
+.smu{
+	height: 30vw;
+}
+.col{
+	display:none;
+}
+.col-21 {
+    width: 100%;
+	text-align: center;
+}
+#main_info h2 {
+    margin: 1vw;
+    font-size: 4vw;
+    margin-bottom: 5vw;
+    font-weight: bold;
+    text-align: center;
+}
+.col-22{
+	text-align: center;
+}
+.col-22 img {
+    height: 30vw;
+}
+.col-21 img {
+    height: 15vw;
+	margin-top: 5vw;
+    margin-bottom: 5vw;
+}
+.col-33 {
+    width: 100%;
+    padding-left: 0vw;
+}
+.col-34 {
+    width: 100%;
+    padding: 1vw;
+}
+.col-36 {
+    margin-top: 5vw;
+    flex-direction: column;
+}
+.col-36 div {
+    width: 100%;
+    padding: 1vw;
+	padding-bottom: 5vw;
+	text-align: center !important;
+}
+.col-35 {
+    flex-wrap: wrap;
+}
+
+.col35-1 {
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    height: 30vw;
+    width: 47%;
+    margin: 1vw;
+}
+.col35-1 div {
+    height: 30vw;
+}
+.col-35 h3 {
+    font-size: 3vw;
+    bottom: 6vw;
+}
 }

@@ -15,7 +15,7 @@
 
 		<?php include 'assets/header.php'; ?>
 		
-		<div id="main_info">
+		<div id="main_info" class="dalibn">
 		
 			<div class="image im-1"></div>
 		

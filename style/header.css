@@ -82,7 +82,7 @@ a{
 	box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
 #link-top.show .logo{
-	background-image: url(../img/jal-color.png);
+	background-image: url(../img/jal_logo_zals.svg);
 }
 #link-top.show .login a{
 	color: rgb(159, 159, 159)
