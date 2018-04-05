@@ -24,10 +24,10 @@
 		biznesa izglītības organizāciju tīkla Junior Achievement Europe skolēnu mācību <br>
 		uzņēmumu (SMU) Eiropas fināls, kurā par labāko uzņēmumu tika atzīts Festera no <br>
 		Igaunijas. Latviju šajā konkursā 37 valstu konkurencē godam pārstāvēja SMU Light <br>
-		<a id="vairak"><span>rādīt vairāk</span></a>
+		<!--<a id="vairak"><span>rādīt vairāk</span></a>-->
 		</p>
 	</div>
-	<div class="capture_aktualitates_2">
+	<!--<div class="capture_aktualitates_2">
 		<p>Up no Jelgavas Spīdolas ģimnāzijas. Briselē, Beļģijā, ar svinīgu apbalvošanas <br>
 		ceremoniju ir beidzies starptautiskā biznesa izglītības organizāciju tīkla <br> 
 		Junior Achievement Europe skolēnu mācību uzņēmumu (SMU) Eiropas fināls, kurā <br> 
@@ -43,7 +43,7 @@
 		uzņēmumu tika atzīts Festera no Igaunijas. Latviju šajā konkursā 37 valstu konkurencē <br>
 		godam pārstāvēja SMU Light Up no Jelgavas Spīdolas ģimnāzijas.
 		</p>
-	</div>
+	</div>-->
 	
 		<?php include 'assets/header.php'; ?>
 		
