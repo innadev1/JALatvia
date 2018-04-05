@@ -12,13 +12,17 @@
 		<div class="capture_dalibskolas capture-top">
 			<h2>Tieši Tev ir iespēja kļūt par JA Latvija Brīvprātīgo kluba biedru!</h2>
 
-			<p>
+			<p class="none">
 				Viss, kas vajadzīgs, ir Tavs gribasspēks, dzīves pieredze un spēja sadarboties ar Taviem vienaudžiem – skolēniem. Ja jūti, ka tas attiecas uz Tevi, tad nāc un iesaisties! Šī mācību gada pirmā tikšanās jau ir notikusi un Brīvprātīgo klubs ir aktīvi uzsācis savu darbu, taču, ja vēlies pievienoties, droši to vari darīt, rakstot uz zemāk minēto e-pastu!
 			</p>
 		</div>
 
 		<?php include 'assets/header.php'; ?>
-
+		<div class="capture_dalibskolas_mobile">
+			<p>
+				Viss, kas vajadzīgs, ir Tavs gribasspēks, dzīves pieredze un spēja sadarboties ar Taviem vienaudžiem – skolēniem. Ja jūti, ka tas attiecas uz Tevi, tad nāc un iesaisties! Šī mācību gada pirmā tikšanās jau ir notikusi un Brīvprātīgo klubs ir aktīvi uzsācis savu darbu, taču, ja vēlies pievienoties, droši to vari darīt, rakstot uz zemāk minēto e-pastu!
+			</p>
+		</div>
 		<div class="main_info">
 		
 			<p>

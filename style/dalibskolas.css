@@ -8,6 +8,21 @@ body{
     background-repeat: no-repeat;
     position: relative;
 }
+#partners{
+	display:none !important;
+}
+.skolotaji #banner{
+	background-image: url(../img/Rectangle1.jpg) !important;
+}
+#dalibskolas-skolas #banner{
+	background-image: url(../img/Rectanglea1.jpg) !important;
+}
+.skolotaji #quote{
+	background-image: url(../img/Layer820.jpg) !important;
+}
+#dalibskolas-skolas #quote{
+	background-image: url(../img/4943831_HaPKNN.jpg) !important;
+}
 .capture{display:none;}
 #buttons{
 	position: absolute;
@@ -41,7 +56,7 @@ body{
 	padding-bottom: 6vw;
 }
 #map{
-	width: 60%;
+	width: 70%;
     margin: auto;
 	height: 30vw;
 }
@@ -60,7 +75,7 @@ body{
 .skolas .flextable{
 	display: -webkit-flex;
     display: flex;
-	width: 50%;
+	width: 60%;
 	margin: auto;
 	font-size: 0.6vw;
 }
@@ -123,7 +138,7 @@ body{
 .dalibskolas_content-1{
 	padding-top: 2vw;
     padding-bottom: 2vw;
-    width: 60%;
+    width: 70%;
     margin: auto;
 }
 .dalibskolas_content-1 h3{
@@ -211,7 +226,7 @@ body{
 .logos-{
 	width: 30%;
 	box-shadow: 0 0 10px rgba(0,0,0,0.2);
-	height: 8vw;
+	height: 9vw;
 	margin-left:1vw;
 }
 .logo1{background-image: url(../img/logos/11.png);}
@@ -238,7 +253,7 @@ body{
 .logos-1{
 	width: 30%;
 	box-shadow: 0 0 10px rgba(0,0,0,0.2);
-	height: 5vw;
+	height: 6vw;
 	margin-left:1vw;
 }
 .logo5{background-image: url(../img/logos/10.png);}
@@ -259,8 +274,8 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 10vw;
-    width: 10vw;
+    height: 13vw;
+    width: 13vw;
     padding: 1vw;
 	margin: 1vw;
 }
@@ -291,6 +306,20 @@ body{
     padding-bottom: 0.5vw;
 	width: 50%;
 	margin-right: 1vw;
+}
+.skolotaji .text-akt{
+	text-align: center;
+}
+.skolotaji .text-akt p{
+	font-size: 0.8vw;
+    font-family: "Poppins";
+    color: black;
+    line-height: 1vw;
+    margin: 0;
+    padding-bottom: 0.5vw;
+	margin-right: 1vw;
+	width: 100%;
+    text-align: center;
 }
 
 .wrap-reversed{
@@ -327,31 +356,47 @@ body{
     position: relative;
     width: 100%;
     background-position-x: 50%;
-    background-size: 50%;
+    background-size: 70%;
     background-position-y: 50%;
     height: 100%;
 	box-shadow: 0 0 10px rgba(0,0,0,0.2);
-	width:5vw;
-	height:5vw
-}
-#dalibskolas-skolas .log{
-	background-size: contain;
-	box-shadow: none;
+	width: 6vw;
+	height: 6vw
 }
 .wrapped_text-1{
 	padding-top: 1.5vw;
 	padding-bottom: 1.5vw;
 }
-.logo10{
-	background-image: url(../img/logos/15.png);
+
+.logo13{
+	background-image: url(../img/logos/13.png);
 }
-.logo11{
-	background-image: url(../img/logos/16.png);
+.logo14{
+	background-image: url(../img/logos/3.png);
 }
-.logo12{
-	background-image: url(../img/logos/17.png);
+.logo15{
+	background-image: url(../img/logos/11.png);
+}
+.logo16{
+	background-image: url(../img/logos/5.png);
+}
+.logo17{
+	background-image: url(../img/logos/22.png);
+}
+.logo18{
+	background-image: url(../img/logos/1.png);
+}
+.logo19{
+	background-image: url(../img/logos/14.png);
 }
 
+
+.logo20{
+	background-image: url(../img/logos/57.png);
+}
+.logo21{
+	background-image: url(../img/logos/58.png);
+}
 .second-block{
 	display: -webkit-flex;
     display: flex;
@@ -439,9 +484,77 @@ body{
     margin-right: 1vw;
 }
 
+.wr-buttons{
+	width: 100%;
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+	padding: 0.5vw;
+}
+.wr-buttons div{
+	display: -webkit-flex;
+    display: flex;
+	justify-content: space-evenly;
+	width: 50%;
+	margin: auto;
+}
+.wr-buttons p{
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+	padding: 1vw;
+	font-weight: bold
+}
+.wr-buttons p a{
+	color: black !important;
+    font-size: 0.8vw !important;
+    font-family: "Poppins", sans-serif !important;
+    color: rgb(255, 255, 255);
+    line-height: 1 !important;
+    margin: 0;
+    padding-bottom: 0vw !important;
+    cursor: pointer
+}
 
+
+.wr-t{
+	display: -webkit-flex;
+    display: flex;
+	width: 100%;
+}
+.wr-t p:first-child{
+	width: 90%;
+	margin-right: 2vw;
+}
+.wr-t p{
+	margin: 0;
+    font-size: 0.8vw;
+    font-family: "Poppins", sans-serif;
+    color: rgb(0,0,0);
+    line-height: 1.5vw;
+    text-align: left;
+    margin-bottom: 2vw;
+}
+.capture_dalibskolas_mobile{
+	display: none;
+}
 
 @media screen and (max-width: 900px){
+.none{
+	display:none;
+}
+.capture_dalibskolas_mobile{
+	display: block;
+    margin: auto;
+    margin-bottom: 10vw;
+    margin-top: 10vw;
+    width: 70%;
+}
+.capture_dalibskolas_mobile p{
+	font-family: "Poppins", sans-serif;
+    color: rgb(0,0,0);
+	font-size: 3.2vw;
+    line-height: 1.5;
+    text-align: justify;
+	margin: 0;
+}
+
 .capture_dalibskolas {
     position: absolute;
     width: 77%;
@@ -485,6 +598,9 @@ body{
 }
 .skolas .flextable p {
     line-height: 2;
+}
+.skolotaji #quote p{
+	margin-top: 5vw;
 }
 #quote {
     background-image: url(../img/mob_1.jpg) !important;
@@ -578,5 +694,64 @@ body{
     height: 30vw;
     margin-left: 0;
 }
+
+.wrap-reversed {
+    width: 100%;
+    flex-direction: column;
+}
+.wrapped-reversed {
+    width: 100% !important;
+    height: auto;
+}
+.wrap-reversed p{
+    font-family: "Poppins", sans-serif;
+    color: rgb(0,0,0);
+    font-size: 3.2vw;
+    line-height: 1.5;
+    text-align: justify;
+    margin: 0;
+}
+.log {
+	box-shadow: none;
+    width: 25vw;
+    height: 25vw;
+}
+.skolotaji .text-akt p{
+    font-size: 3vw;
+    line-height: 2;
+	margin-bottom: 5vw;
+}
+#dalibskolas-skolas #quote{
+	height: 160vw;
+	background-image: url(../img/4943831_HaPKNNv.jpg) !important;
+}
+.wr-buttons {
+    box-shadow: none;
+    padding: 0;
+}
+.wr-buttons p a {
+    font-size: 3.5vw !important;
+}
+.wr-buttons div {
+    flex-direction: column;
+    text-align: center;
+}
+.wr-t {
+    flex-direction: column;
+}
+.wr-t p:first-child {
+    width: 100%;
+    margin-right: 0vw;
+}
+.wr-t p{
+	font-family: "Poppins", sans-serif;
+    color: rgb(0,0,0);
+    font-size: 3.2vw;
+    line-height: 1.5;
+    text-align: justify;
+    margin: 0;
+	margin-bottom: 5vw;
+}
+
 
 }

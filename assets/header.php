@@ -66,7 +66,7 @@ $(document).ready(function(){
 				<li><a href="dalibskolas-skolas.php">Skolu Krustvecāki</a></li>
 				<li><a href="dalibskolas-klubs.php">Brīvprātīgo klubs</a></li>
 			</ul>
-		<li class="collapsed"><a>Skolēnu mācību uzņēmumi <span class="label"></span></a></li>
+		<!--<li class="collapsed"><a>Skolēnu mācību uzņēmumi <span class="label"></span></a></li>
 			<ul class="sub">
 				<li><a href="smu.php">Par SMU</a></li>
 				<li><a href="smu-konsultants.php">SMU gada konsultants</li>
@@ -76,7 +76,7 @@ $(document).ready(function(){
 				<li><a href="smu-vd.php">SMU vidusskolas dibināšana</a></li>
 				<li><a href="smu-vdarb.php">SMU vidusskolas darbība</a></li>
 				<li><a href="smu-vl.php">SMU vidusskolas likvidācija</a></li>
-			</ul>
+			</ul>-->
 		<li class="collapsed"><a>TITAN <span class="label"></span></a></li>
 			<ul class="sub">
 				<li><a href="titan.php">Par TITAN</a></li>

@@ -25,78 +25,24 @@
 		</div>
 
 		<?php include 'assets/header.php'; ?>
-
-		<div class="dalibskolas_content-1">
-			<h3>Statistika</h3>
-			<div class="wrap-reversed three">
-				<div class="wrapped-reversed">
-					<div class="logos-r"><div class="logo11 log"></div></div>
-					<div class="wrapped_text-1">
-						<p>JA Latvija piedāvātās mācību metodes dod iespēju apgūt praktiski Izglītības un Zinātnes ministrijas (IZM) mācību priekšmetu programmās iekļautos teorētiskos jautājumus, ļaujot skolēniem saskatīt akadēmisko zināšanu pielietojamību reālajā dzīvē.</p>
-					</div>
-				</div>
-				<div class="wrapped-reversed">
-					<div class="logos-r"><div class="logo12 log"></div></div>
-					<div class="wrapped_text-1">
-						<p>Latvijā to ieviesa 1991.gadā un pēdējos gados tā kļuvusi īpaši populāra. Aizvadītajā mācību gadā reģistrēti 872 skolēnu mācību uzņēmumus, kas ir 3052 uzņēmējdarbības programmā iesaistījušies jaunieši. Programmas dalībnieki 2014./2015. m.g., SMU Simple+ , Eiropas mēroga finālā ieguva 2. vietu.</p>
-					</div>
-				</div>
-				<div class="wrapped-reversed">
-					<div class="logos-r"><div class="logo11 log"></div></div>
-					<div class="wrapped_text-1">
-						<p>JA Latvija aptaujā (2010) 45% SMU programmas dalībnieku vecumā no 18 – 25 gadiem atzinuši, ka plāno veidot savu uzņēmumu. Eiropas pētījums liecina, ka 15% SMU dalībnieku arī uzsāk savu biznesu vecumā no 20 – 29 gadiem, bet 36% plāno to uzsākt tuvāko trīs gadu laikā.</p>
-					</div>
-				</div>
-			</div>
-		</div>
-		
-		<div class="dalibskolas_content-1">
-			<h3>Iespējas</h3>
-			<div class="wrap-reversed">
-				<div class="wrapped-reversed">
-					<div class="logos-r"><div class="logo11 log"></div></div>
-					<div class="wrapped_text-1">
-						<p>apgūt praktiskās biznesa izglītības programmas sociālo zinību mācību priekšmeta ietvaros un fakultatīvi</p>
-					</div>
-				</div>
-				<div class="wrapped-reversed">
-					<div class="logos-r"><div class="logo12 log"></div></div>
-					<div class="wrapped_text-1">
-						<p>apmeklēt praktiskos seminārus par uzņēmējdarbību un gūt iemaņas nodibināt un vadīt savus uzņēmumus;</p>
-					</div>
-				</div>
-				<div class="wrapped-reversed">
-					<div class="logos-r"><div class="logo11 log"></div></div>
-					<div class="wrapped_text-1">
-						<p>realizēt savas biznesa idejas jau skolas laikā un uzkrāt pieredzi, lai pēc programmu absolvēšanas (studiju laikā vai pēc studijām) spētu tālāk attīstīt savas biznesa idejas;</p>
-					</div>
-				</div>
-				<div class="wrapped-reversed">
-					<div class="logos-r"><div class="logo12 log"></div></div>
-					<div class="wrapped_text-1">
-						<p>saskatīt iespējas savā reģionā un nākotnē veidot jaunas darba vietas, tā veicinot Latvijas tautsaimniecības attīstību un paaugstinot kopējo sabiedrības labklājību.</p>
-					</div>
-				</div>
-			</div>
-		</div>
-		
+	
 		<div class="dalibskolas_content-1">
 			<h3>Aicinājums</h3>
 			<div class="wrap-reversed three">
 				<div class="wrapped-reversed">
-					<div class="logos-r"><div class="logo11 log"></div></div>
+					<div class="logos-r"><div class="logo20 log"></div></div>
 					<div class="wrapped_text-1">
 						<p>JA Latvija aicina ikvienu juridisku vai fizisku personu (Pilsētas Domi, pašvaldību, Izglītības pārvaldi, uzņēmumu vai JA Latvija programmu absolventu), kam rūp Latvijas tautsaimniecības attīstība, atbalstīt biznesa izglītību Latvijas skolās savu iespēju robežās:</p>
 					</div>
 				</div>
 				<div class="wrapped-reversed">
-					<div class="logos-r"><div class="logo12 log"></div></div>
+					<div class="logos-r"><div class="logo21 log"></div></div>
 					<div class="wrapped_text-1">
-						<p>ziedojot fondā naudas summu, kas nosedz skolas dalības maksu programmā. Dalības maksa JA Latvija programmā 2017./2018.mācību gadā vidusskolai ir 240 EUR, pamatskolai –  125 EUR.</p>
+						<p>Ziedojot fondā naudas summu, kas nosedz skolas dalības maksu programmā. Dalības maksa JA Latvija programmā 2017./2018.mācību gadā vidusskolai ir 240 EUR, pamatskolai –  125 EUR.</p>
 					</div>
 				</div>
 				<div class="wrapped-reversed">
-					<div class="logos-r"><div class="logo11 log"></div></div>
+					<div class="logos-r"><div class="logo17 log"></div></div>
 					<div class="wrapped_text-1">
 						<p>Ziedotājs var izvēlēties, kuras skolas skolēniem dot iespēju padziļināti apgūt uzņēmējdarbības un ekonomikas jautājumus, vai dot šādu iespēju skolām, kas jau izrādījušas iniciatīvu piedalīties JA Latvija programmās.</p>
 					</div>
@@ -104,56 +50,71 @@
 			</div>
 		</div>
 		
-		<div id="quote">
-			<div class="quote">
-				<h2>Aiva Vīksna</h2>
-				<p><span>Latvijas Darba devēju konfederācijas viceprezidente, izdevniecības "Lietišķās informācijas dienests” izpilddirektore</span></p>	
-			
-				<p>
-					„Atbalstīt skolas – tā jau ir vairāku gadu apzināta rīcība. Gan es personīgi, gan mana ģimene, gan mans uzņēmums "Lietišķās informācijas dienests" to dara ilglaicīgi, jo mēs esam par to, lai Latvijā būtu vairāk uzņēmīgu cilvēku. Esmu atbalstījusi personīgi arī savas dzimtās pilsētas Gulbenes novada valsts ģimnāziju. Es domāju, ka mums ikkatram, kuram ir iespēja, vajadzētu atbalstīt savu dzimto skolu, sava novada jauno paaudzi, dodot viņiem makšķeri. Mēs nevaram stāvēt malā un vienaldzīgi noskatīties, kā talantīgākie aizplūst prom no mūsu dzimtajām mājām, radot darba vietas svešā zemē.”  
-				</p>
-				
-				<div class="green-border-1"></div>
-				<div class="green-border-2"></div>
-				<div class="green-border-3"></div>
-				<div class="el"><img src="img/element.png"></div>
-			</div>
-		</div>
-
 		<div class="dalibskolas_content-1">
 			<h3>Kā kļūt par skolas krustvecāku?</h3>
-			<div class="wrap-reversed">
-				<div class="wrapped-reversed">
-					<div class="logos-r"><div class="logo11 log"></div></div>
-					<div class="wrapped_text-1">
+			<div class="flex-dalibskolas">
+			
+				<div class="one-flex">
+					<div><img src="img/logos/2.png"></div>
+					<div>
 						<p>1. Aizpildiet Ziedojuma līgumu divos eksemplāros, līgumā norādot skolas nosaukumu, kuru vēlaties atbalstīt;</p>
 					</div>
 				</div>
-				<div class="wrapped-reversed">
-					<div class="logos-r"><div class="logo12 log"></div></div>
-					<div class="wrapped_text-1">
+				
+				<div class="one-flex">
+					<div><img src="img/logos/8.png"></div>
+					<div>
 						<p>2. Abus līguma eksemplārus sūtiet uz JA Latvija biroju, tā adrese - Ūdens iela 12-21, Rīga, LV-1007;</p>
 					</div>
 				</div>
-				<div class="wrapped-reversed">
-					<div class="logos-r"><div class="logo11 log"></div></div>
-					<div class="wrapped_text-1">
+				
+				<div class="one-flex">
+					<div><img src="img/logos/14.png"></div>
+					<div>
 						<p>3. JA Latvija apstiprinātu Ziedojuma līguma eksemplāru saņemiet uz Jums norādīto pasta adresi/JA Latvija noslēdz līgumu ar Ziedojuma līgumā norādīto mācību iestādi;</p>
 					</div>
 				</div>
-				<div class="wrapped-reversed">
-					<div class="logos-r"><div class="logo12 log"></div></div>
-					<div class="wrapped_text-1">
+				
+				<div class="one-flex">
+					<div><img src="img/logos/3.png"></div>
+					<div>
 						<p>4. Veiciet ziedojumu, maksājuma uzdevumā norādot JA Latvija piešķirto Līguma numuru/Ziedojuma līgumā norādītā mācību iestāde oficiāli kļūst par JA Latvija dalībskolu.</p>
 					</div>
 				</div>
+			
 			</div>
+		</div>
+		
+		<div class="wr-buttons">
+			<div>
+				<p><a>Ziedojuma līgumi</a></p>
+				<p><a>Pamata izglitības iestādes</a></p>
+				<p><a>Vidējas izglitības iestādes</a></p>
+			</div>
+		</div>
+		
+		<div class="dalibskolas_content-1">
+			<h3>Kļūstot par Skolēnu mācību uzņēmumu<br> 
+				(SMU) padomdevēju/mentoru:</h3>
+				
+			<div class="wr-t">
+				<p>
+					Biznesa konsultantu un sniedzot jaunajiem uzņēmējiem konsultācijas klātienē biedrības rīkotos semināros, nometnēs, gadatirgos – izstādēs u.c. jomās, kurās SMU dalībniekiem nepieciešams padoms, – biznesa plāna veidošana, mārketings, grāmatvedība, personālvadība, finanšu plānošana, ražošana u.c.
+				</p>
+				<p>
+					<b>Procedūra:</b> pieteikumu konsultatīvi atbalstīt Skolēnu mācību uzņēmumus sūtiet uz uz e-pastu jal@jal.lv
+				</p>
+			</div>
+			
 		</div>
 		
 		<div id="quote">
 			<div class="quote">
+				<h2>Aiva Vīksna</h2>
+				<p class="quote-p"><span>Latvijas Darba devēju konfederācijas viceprezidente, izdevniecības "Lietišķās informācijas dienests” izpilddirektore</span></p>	
+			
 				<p>
-					4. Veiciet ziedojumu, maksājuma uzdevumā norādot JA Latvija piešķirto Līguma numuru/Ziedojuma līgumā norādītā mācību iestāde oficiāli kļūst par JA Latvija dalībskolu.
+					„Atbalstīt skolas – tā jau ir vairāku gadu apzināta rīcība. Gan es personīgi, gan mana ģimene, gan mans uzņēmums "Lietišķās informācijas dienests" to dara ilglaicīgi, jo mēs esam par to, lai Latvijā būtu vairāk uzņēmīgu cilvēku. Esmu atbalstījusi personīgi arī savas dzimtās pilsētas Gulbenes novada valsts ģimnāziju. Es domāju, ka mums ikkatram, kuram ir iespēja, vajadzētu atbalstīt savu dzimto skolu, sava novada jauno paaudzi, dodot viņiem makšķeri. Mēs nevaram stāvēt malā un vienaldzīgi noskatīties, kā talantīgākie aizplūst prom no mūsu dzimtajām mājām, radot darba vietas svešā zemē.”  
 				</p>
 				
 				<div class="green-border-1"></div>

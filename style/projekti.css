@@ -142,6 +142,9 @@ body {
 .project-tx{
 	width: 60%;
 }
+.capture_mobile{
+	display: none; 
+}
 @media screen and (max-width: 900px){
 .capture_projekti p{
 	display: none;
