@@ -97,8 +97,13 @@ $(document).ready(function(){
 		<li><a href="veiksmes_stasti.php">Veiksmes stāsti</a></li>
 		<li><a href="foto.php">Foto</a></li>
 		<li><a href="sertifikats.php">Ja Latvija sertifikāts</a></li>
-		<!--<li><a href="publications.php">? Publikācijas</a></li>-->
-		<li><a href="index.php#footer">Par mums</a></li>
+		<li class="collapsed"><a>Par mums <span class="label"></span></a></li>
+			<ul class="sub">
+				<li><a href="padome.php">Padome</a></li>
+				<li><a href="kontakti.php">Kontakti/Rekvizīti</a></li>
+				<li><a href="parskats.php">Gada parskats</a></li>
+				<li><a href="biedri.php">Biedri</a></li>
+			</ul>
 	</ul>
 <script>
 $(document).ready(function() {
