@@ -103,6 +103,7 @@ $(document).ready(function(){
 				<li><a href="kontakti.php">Kontakti/Rekvizīti</a></li>
 				<li><a href="parskats.php">Gada parskats</a></li>
 				<li><a href="biedri.php">Biedri</a></li>
+				<li><a href="vesture.php">Vēsture</a></li>
 			</ul>
 	</ul>
 <script>

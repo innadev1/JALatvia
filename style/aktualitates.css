@@ -7,7 +7,6 @@
 }
 .capture{display:none;}
 #news{
-	background-color: #ececec;
 	padding-top: 5vw;
     padding-bottom: 6vw;
 }
@@ -25,7 +24,7 @@
     font-weight: bold;
     text-align: left;
     font-size: 2vw;
-    line-height: 3vw;
+    line-height: 1.1;
     padding-bottom: 1vw;
 }
 .capture_aktualitates p{
@@ -59,7 +58,7 @@
     font-weight: bold;
     text-align: left;
     font-size: 2vw;
-    line-height: 3vw;
+    line-height: 1.1;
     padding-bottom: 1vw;
 }
 .capture_aktualitates_2 p{

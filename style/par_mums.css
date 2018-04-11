@@ -1,6 +1,3 @@
-body{
-	background-color: #ececec;
-}
 #partners{display:none !important}
 #banner {
     height: 46vw;
@@ -18,6 +15,9 @@ body{
 .biedri #banner {
     background-image: url(../img/biedri.jpg) !important;
 }
+.vesture #banner {
+    background-image: url(../img/vesture.jpg) !important;
+}
 .capture{display:none;}
 .capture_top{
     position: absolute;
@@ -33,7 +33,7 @@ body{
     font-weight: bold;
     text-align: left;
     font-size: 2vw;
-    line-height: 3vw;
+    line-height: 1.1;
     padding-bottom: 1vw;
 }
 .capture_top p{
@@ -188,6 +188,32 @@ body{
     text-transform: uppercase;
 }
 
+.vesture .flex{
+	flex-wrap: wrap;
+}
+.vesture .flex div{
+	margin-bottom: 1vw;
+}
+.vesture .flex h1{
+	margin: 0;
+    margin-bottom: 0 !important;
+    text-align: left !important;
+    font-size: 1.1vw;
+}
+.vesture .flex p{
+	margin: 0;
+    margin-bottom: 0;
+    text-align: left;
+    font-size: 0.9vw;
+}
+.year{
+	width: 10%
+}
+.year-text{
+	width: 90%
+}
+
+
 @media screen and (max-width: 900px){
 #map {
     height: 150vw;
@@ -275,5 +301,27 @@ body{
 	margin-top: 10vw
 }
 
+
+
+
+.vesture .flex div {
+    margin-bottom: 5vw;
+	width: 100%;
+}
+.vesture .flex h1{
+	margin: auto;
+    margin-top: 0;
+    margin-bottom: 10vw;
+    text-align: center;
+    font-size: 7vw !important;
+    text-transform: inherit;
+    font-weight: 700;
+    width: 100%;
+    text-align: center !important;
+}
+.vesture .flex p {
+    font-size: 5vw;
+	text-align: justify
+}
 
 }

@@ -20,7 +20,7 @@
     font-weight: bold;
     text-align: left;
     font-size: 2vw;
-    line-height: 3vw;
+    line-height: 1.1;
     padding-bottom: 0.5vw;
 }
 .capture_stasti p{
@@ -54,7 +54,7 @@
     font-weight: bold;
     text-align: left;
     font-size: 2vw;
-    line-height: 3vw;
+    line-height: 1.1;
     padding-bottom: 1vw;
 }
 .capture_stasti_2 p{

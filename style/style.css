@@ -6,7 +6,6 @@ body{
 	max-width: 100%;
 	margin: 0;
     overflow-x: hidden;
-	background-color: #ececec;
 	font-family: "Poppins", sans-serif;
 }
 ul, li{
@@ -128,6 +127,11 @@ input:focus{
     text-transform: uppercase;
 }
 
+
+
+.capture-top h2{
+	line-height: 1.1 !important;
+}
 @media screen and (max-width: 900px){
 .capture-top {
     position: absolute !important;
