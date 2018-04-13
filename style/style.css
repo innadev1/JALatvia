@@ -128,7 +128,9 @@ input:focus{
 }
 
 
-
+.capture-top{
+	margin-left: 14vw !important;
+}
 .capture-top h2{
 	line-height: 1.1 !important;
 }

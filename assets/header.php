@@ -99,6 +99,7 @@ $(document).ready(function(){
 		<li><a href="sertifikats.php">Ja Latvija sertifikāts</a></li>
 		<li class="collapsed"><a>Par mums <span class="label"></span></a></li>
 			<ul class="sub">
+				<li><a href="par_mums.php">Par mums</a></li>
 				<li><a href="padome.php">Padome</a></li>
 				<li><a href="kontakti.php">Kontakti/Rekvizīti</a></li>
 				<li><a href="parskats.php">Gada parskats</a></li>

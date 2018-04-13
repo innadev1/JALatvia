@@ -22,6 +22,14 @@
 		<?php include 'assets/header.php'; ?>
 		
 		<div class="main_info">
+		
+			<div class="capture_news_mobile">
+				<p>Briselē, Beļģijā, ar svinīgu apbalvošanas ceremoniju ir beidzies starptautiskā
+				biznesa izglītības organizāciju tīkla Junior Achievement Europe skolēnu mācību
+				uzņēmumu (SMU) Eiropas fināls, kurā par labāko uzņēmumu tika atzīts Festera no
+				Igaunijas. Latviju šajā konkursā 37 valstu konkurencē godam pārstāvēja SMU Light
+				</p>
+			</div>
 
 			<p>
 			Labāko Eiropas SMU prezentāciju stendus, tostarp Latvijas SMU Light Up stendu, apmeklēja arī Beļģijas karalis Filips I. 
